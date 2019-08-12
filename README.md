@@ -1,3 +1,22 @@
+# Reproducing and running the code
+
+### Installing Anaconda and setting up the environment
+
+1. Download Anaconda from [here](https://www.anaconda.com/distribution/).
+2. Install Anaconda using [these](https://docs.anaconda.com/anaconda/install/) instructions.
+3. Open the Anaconda shell.
+3. Within the Anaconda shell, change directory to the root directory of your local call-centre-data-nlp repo.
+4. Create a new environment in the Anaconda Shell: >conda env create -n my_new_env --file environment.yml.
+5. Switch to the new environment: >conda activate my_new_env.
+6. Finally, the english language model for spacey should be downloaded from the anaconda prompt: python -m spacy download en_core_web_md.
+
+### Running the Code
+
+1. In the Anaconda shell, if you are not already in the root directory of the local call-centre-data-nlp repo, change directory to there now.
+2. Launch Jupyter Notebook from the Anaconda shell (>jupyter notebook). The Jupyter Notebook app will open up in a web browser.
+
+
+
 # Ubuntu Conversation Challenge
 
 Welcome to the EdgeTier NLP and data science code challenge.
