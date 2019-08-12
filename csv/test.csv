@@ -1,0 +1,1375 @@
+Column1,from,to,class,text
+0,tanath,lotuspsychje,0,and he's been stubborn in the face of criticism.
+1,tanath,lotuspsychje,0,arguably with good reason.
+2,tanath,lotuspsychje,0,"he has a good vision, and he's right that if the effort is put in it's prolly the best replacement for X"
+3,lotuspsychje,tanath,0,so opensource get influenced these days lol?
+4,tanath,lotuspsychje,0,of course.
+5,tanath,lotuspsychje,0,always has been
+6,tanath,lotuspsychje,0,"but yeah, ubuntu wouldn't exist if not for him"
+7,tanath,lotuspsychje,0,"created canonical, the company behind ubuntu"
+8,lotuspsychje,tanath,0,"but i agree you on every point mate, they should at least give the user the choice..."
+9,tanath,lotuspsychje,0,mhm
+10,tanath,lotuspsychje,0,"anyway, thanks for pointer, and the chat."
+11,tanath,lotuspsychje,0,i'm off
+12,lotuspsychje,tanath,0,like providing classic natty on seperate download iso
+13,lotuspsychje,tanath,0,ok take care mate
+14,tanath,lotuspsychje,0,"nah, just a clear(er) option"
+15,tanath,lotuspsychje,0,even sticking with classic isn't good enough >.<
+16,diverdude,,0,I am trying to configure subversion but when i run configure script i get the error: configure: error: subversion requires zlib.
+17,diverdude,,0,How do i install this?
+18,diverdude,,0,any1+?
+19,ikonia,diverdude,0,why are you not using the apache install from ubuntu ?
+20,diverdude,ikonia,0,because the image comes with a preinstalled apache.
+21,diverdude,ikonia,0,its an bitnami image
+22,ikonia,diverdude,0,"oh, so this isn't a proper ubuntu install ?"
+23,diverdude,ikonia,0,"no it is a bitnami image hosted on amazon, but it is a ubuntu image"
+24,ikonia,diverdude,0,it's modified I suggest using bitnami's support for that
+25,ikonia,diverdude,0,http://bitnami.org/faq
+26,diverdude,ikonia,0,they have sucky support
+27,ikonia,diverdude,0,"that's not our fault, we don't pickup the slack for these guys, it's their business"
+28,diverdude,ikonia,0,my question is not even bitnami related.
+29,diverdude,ikonia,0,its just 'how do i install zlib on ubuntu'
+30,ikonia,diverdude,0,"it is - as it's a modified system,"
+31,ikonia,diverdude,0,"we won't support it,"
+32,ikonia,diverdude,0,you chose to use it
+33,diverdude,ikonia,0,please stop banning people just because you have a personal grudge.
+34,diverdude,ikonia,0,that is no way to run a support forum!
+35,batshwa,,1,"hi, everybody"
+36,batshwa,,0,i've got an annoying problem with my xubuntu
+37,batshwa,,0,after an upgrade to 10.04 from 9.10 my system freezes from time to time -- i've noticed this happens whenever man-db or mandb run
+38,aeon-ltd,batshwa,0,"sounds like a bug, you should report it, does cpu spike or does it just feeze?"
+39,aeon-ltd,batshwa,0,when the cpu suddenly reaches 100%
+40,aeon-ltd,batshwa,0,or near 100%
+41,batshwa,aeon-ltd,0,do you think i should report it as a bug?
+42,aeon-ltd,batshwa,0,"try updating again, if it doesn't work report a bug"
+43,batshwa,aeon-ltd,0,update what?
+44,aeon-ltd,batshwa,0,packages (sudo apt-get update)
+45,batshwa,aeon-ltd,0,apt-get returns a 'Bus eror'
+46,batshwa,aeon-ltd,0,if it helps i can show you a post containing more etails on ubuntuforums -- unfortunately i did not get any answer so far
+47,aeon-ltd,batshwa,0,ok
+48,batshwa,aeon-ltd,0,here you are: http://ubuntuforums.org/showthread.php?t=1524124
+49,aeon-ltd,batshwa,0, according to this guy http://ubuntuforums.org/showthread.php?p=2070840 you should delete the cached packages then run apt-get update/upgrade again
+50,batshwa,aeon-ltd,0,"thanks a lot, i will try this now"
+51,batshwa,aeon-ltd,0,will try to run apt-get now -- if I don't answer in two minutes then my system has freezed ;) i will come back to you in a moment
+52,aeon-ltd,batshwa,0,ok
+53,batshwa,aeon-ltd,0,"apt-get now works, thank you a lot!"
+54,batshwa,aeon-ltd,0,"i have not done apt-get update/upgrade yet, since i want to try first update-manager"
+55,aeon-ltd,batshwa,1,ok your welcome :)
+56,batshwa,aeon-ltd,0,"i ran update-manager and marked the distribution upgrade packages, libavahi_core and autoconf, after which the system froze for a few minutes while 'processing man triggers' -- something seems to be wrong with the man(-)db processes, what do you think?"
+57,aeon-ltd,batshwa,0,try reinstalling mandb and its dependencies it may help
+58,batshwa,aeon-ltd,0,"i will do that now, thanks"
+59,batshwa,aeon-ltd,0,it says '/usr/bin/mandb: can't read from /var/cache/man/index.db: Input/output error' -- dmesg also said numerous times there were i/o errors
+60,batshwa,aeon-ltd,0,and it took him pretty much time again
+61,aeon-ltd,batshwa,0,try and rebuild the db via 'sudo mandb'
+62,batshwa,aeon-ltd,0,will do this now
+63,batshwa,aeon-ltd,0,now it says 'gdbm fatal: read error'
+64,aeon-ltd,batshwa,0,what applications did you install prior to this problem?
+65,batshwa,aeon-ltd,0,"i can't recall, nothing of importance as far as i remember..."
+66,batshwa,aeon-ltd,0,it was the upgrade process from 9.10 to 10.04 i think
+67,aeon-ltd,batshwa,0,so far i've found that autopackage causes problems like this
+68,batshwa,aeon-ltd,0,should i remove this package?
+69,aeon-ltd,batshwa,0,no apparantly its fixed with just the command 'export MANPATH='
+70,batshwa,aeon-ltd,0,is 'autopackage' a package?
+71,batshwa,aeon-ltd,0,should i give it a try?
+72,aeon-ltd,batshwa,0,yes
+73,aeon-ltd,batshwa,0,the command?
+74,aeon-ltd,batshwa,0,yes
+75,batshwa,aeon-ltd,0,"all right, will do it now"
+76,batshwa,aeon-ltd,0,"done, will try to install now a new package and see whether the 'processing man triggers'-phase produces an error"
+77,aeon-ltd,batshwa,0,ok
+78,batshwa,aeon-ltd,0,same error as before: /usr/bin/mandb: can't read from /var/cache/man/index.db: Input/output error
+79,batshwa,aeon-ltd,0,this seems to be a pretty hard case
+80,aeon-ltd,batshwa,0,"running dry of ideas, try reinstalling autopackage if you have it installed"
+81,batshwa,aeon-ltd,0,"i could not find it in synaptic before, when you first mentioned it"
+82,batshwa,aeon-ltd,0,let me try again
+83,batshwa,aeon-ltd,0,"no, i can't find it using synaptic"
+84,batshwa,aeon-ltd,0,does that imply i do not have that package installed on my system?
+85,aeon-ltd,batshwa,0,"yes it does,"
+86,batshwa,aeon-ltd,0,sounds bad...
+87,batshwa,aeon-ltd,0,"well that means i am going to format the whole disc and reinstall ubuntu, maybe install a minimal system as described on help.ubuntu.com"
+88,aeon-ltd,batshwa,0,"wait, remind me what happens when you try to reinstall mandb?"
+89,batshwa,aeon-ltd,0,"nothing, it just hangs when processing some triggers, as far as i remember"
+90,batshwa,aeon-ltd,0,the usual procedure
+91,batshwa,aeon-ltd,0,as with any package i have installed so far
+92,aeon-ltd,batshwa,0,"before you reinstall completely, do you know how to build packages?"
+93,batshwa,aeon-ltd,0,from source?
+94,batshwa,aeon-ltd,0,i don't think so.
+95,batshwa,aeon-ltd,0,i just know how to use make...
+96,aeon-ltd,batshwa,0,"good, does ./configure make make install sound familiar?"
+97,batshwa,aeon-ltd,0,yes it does
+98,aeon-ltd,batshwa,0,you could try building mandb(rather than reinstall through apt) and see if it helps
+99,batshwa,aeon-ltd,0,i will give it a try later.
+100,batshwa,aeon-ltd,0,unfortunately i have to go this instant.
+101,batshwa,aeon-ltd,0,are you frequently in this chat room?
+102,batshwa,aeon-ltd,0,because we could make some arrangement as to when you're there
+103,aeon-ltd,batshwa,0,i'm here usually around the day (in gmt)
+104,batshwa,aeon-ltd,0,"all right, i will come back later today."
+105,batshwa,aeon-ltd,0,"if you're not there, we'll talk again tomorrow, all right?"
+106,aeon-ltd,batshwa,0,ok
+107,batshwa,aeon-ltd,1,thanks a lot for your help!
+108,aeon-ltd,batshwa,1,bye
+109,batshwa,aeon-ltd,1,"hi, just came back"
+110,batshwa,aeon-ltd,0,can you tell me where i can find the source files of mandb?
+111,aeon-ltd,batshwa,0,what ubuntu version are you using?
+112,batshwa,aeon-ltd,0,"i am using xubuntu 10.04, but with fluxbox as window manager"
+113,aeon-ltd,batshwa,0,http://packages.ubuntu.com/lucid/man-db
+114,aeon-ltd,batshwa,0,wait a better one http://packages.ubuntu.com/source/lucid/man-db
+115,batshwa,aeon-ltd,0,is there anything that can go wrong when i try to compile mandb?
+116,batshwa,aeon-ltd,0,"(meaning, i won't lose any data during a routine job like this one, will i?)"
+117,aeon-ltd,batshwa,0,"no, 99% sure/hopefully something won't go wrong"
+118,batshwa,aeon-ltd,0,do i need the .dsc and both .tar.gz files?
+119,aeon-ltd,batshwa,0,no just the tar.gz
+120,batshwa,aeon-ltd,0,"but both tar.gz's, right?"
+121,aeon-ltd,batshwa,0,no just one of them
+122,batshwa,aeon-ltd,0,"all right, i'm onto the readme file now"
+123,batshwa,aeon-ltd,0,"i do not have to touch the existing installation of mandb before proceeding with ./configure and make, do i?"
+124,aeon-ltd,batshwa,0,"no, just cd into the package and build and install it will replace mandb"
+125,batshwa,aeon-ltd,0,"there's a lot of reading to be done if i want every step to be absolutely correct -- i think i will skip this reading, what do you think?"
+126,batshwa,aeon-ltd,0,the first error has just occurred: 'configure: error: Fatal: no supported database library/header found'
+127,aeon-ltd,batshwa,0,"damn, ok mandb is seriously screwed"
+128,batshwa,aeon-ltd,0,is there any way to fix it?
+129,aeon-ltd,batshwa,0,"i'm not really sure, since apt won't work or compiling as they both require a working mandb this is kinda a infinite loop"
+130,batshwa,aeon-ltd,0,can't i tell them to skip the part where they require the man database?
+131,batshwa,aeon-ltd,0,"i mean, can't i uninstall the whole man system?"
+132,aeon-ltd,batshwa,0,i'm not sure i've never encountered a problem that involves the core of the system like mandb
+133,batshwa,aeon-ltd,0,do you think i shouzld format and reinstall the whole system?
+134,aeon-ltd,batshwa,0,not just yet i'd wait until tomorrow unless you want a working system now and have backed up everything you need
+135,batshwa,aeon-ltd,0,that's not the case with me
+136,batshwa,aeon-ltd,0,"i wonder, can i set the system the way it does not run man(-)db regularly?"
+137,aeon-ltd,batshwa,0,"it references it for almost every package related process, i think or at least it seems that way"
+138,batshwa,aeon-ltd,0,all right
+139,aeon-ltd,batshwa,0,i'd google anyway just to be sure
+140,batshwa,aeon-ltd,0,it seems not as easy as to be solved by a complete novice like me
+141,batshwa,aeon-ltd,0,i will do so tomorrow
+142,batshwa,aeon-ltd,0,thanks a lot for your help today!
+143,batshwa,aeon-ltd,0,i will 'attack' mandb tomorrow again
+144,milen8204,,0,How i can change my mac address ?
+145,ActionParsnip,milen8204,0,I know how in /etc/network/interfaces
+146,milen8204,ActionParsnip,0,i tried but i couldn`t wria any word there
+147,ActionParsnip,milen8204,0,not sure if it will stop network manager being able to manage the interface thoough
+148,milen8204,ActionParsnip,0,I must cut out all connections
+149,ActionParsnip,milen8204,0,http://www.youritronics.com/how-to-set-the-mac-address-from-etcnetworkinterfaces-in-debian/
+150,milen8204,ActionParsnip,1,thanks
+151,ActionParsnip,milen8204,0,you can use the interfaces to set a static ip.
+152,ActionParsnip,milen8204,0,If you want to change your internet ip (ie.
+153,ActionParsnip,milen8204,0,You don't use a router) then you will need to contact your provider
+154,ActionParsnip,milen8204,0,you can change what ip you have on your own lan very freely as long as it falls into the subnet of your router (you can even change that if you want to change all of the address) but the ip you get from your provider is given to you and is out of your control
+155,milen8204,ActionParsnip,0,I have changed my PC and my old PC had had a difren IP and MAC than new one :D
+156,ActionParsnip,milen8204,0,that's normal.
+157,ActionParsnip,milen8204,0,Here is how you can define ip in the interfaces file too.
+158,ActionParsnip,milen8204,0,If you use it then network manager will NOT be able to manage the interface http://www.cyberciti.biz/faq/setting-up-an-network-interfaces-file/
+159,milen8204,ActionParsnip,1,thanks a lot
+160,ActionParsnip,milen8204,0,try:  dpkg -S math.h
+161,milen8204,ActionParsnip,1,thanks
+162,ActionParsnip,milen8204,0,what is the filename and where is it located?
+163,milen8204,ActionParsnip,0,/home/milen/Azureus Downloads/Swat 4 The Stetchkov Syndicate - RELOADED/rld-sw4x.bin
+164,ActionParsnip,milen8204,0,isn't that a paid for software?
+165,milen8204,ActionParsnip,0,you mean that is pirate copy ?
+166,ActionParsnip,milen8204,0,"yes, its clear you used Azeurus to pull it down."
+167,ActionParsnip,milen8204,0,Piracy is not condoned or supported here
+168,ActionParsnip,milen8204,0,"UUID=43beb8fe-c819-4ec4-9909-c0cc658d7a9b /home           ext4    defaults,user_xattr        0       2"
+169,ActionParsnip,milen8204,0,the UUID will be different
+170,milen8204,ActionParsnip,0,I dont understand much
+171,milen8204,ActionParsnip,0,it is UUID unique for every device ?
+172,ActionParsnip,milen8204,0,yes
+173,ActionParsnip,milen8204,0,sudo blkid   will show you yours
+174,milen8204,ActionParsnip,0,"It is the same for sta1, sta2 and others ?"
+175,ActionParsnip,milen8204,0,"any storage device, yes"
+176,milen8204,ActionParsnip,0,I see it is the same for different partition :D thanks
+177,milen8204,ActionParsnip,0,"what-for  I should write in fstab :  defaults,user_xattr, I just want to know\"
+178,milen8204,ActionParsnip,0," UUID=71ec6a02-10f0-4ee7-85bd-dea3aa9fbb2d /home ext4 defaults,(what have to type here ) 0 0"
+179,ActionParsnip,milen8204,0,"UUID=43beb8fe-c819-4ec4-9909-c0cc658d7a9b /home           ext4    defaults,user_xattr        0       2"
+180,ActionParsnip,milen8204,0,that's mine
+181,milen8204,ActionParsnip,1,thanks alot :D
+182,milen8204,ActionParsnip,0,how I can see type of the mounting volume ?
+183,ActionParsnip,milen8204,0,sudo parted -l
+184,milen8204,ActionParsnip,1,thanks
+185,milen8204,ActionParsnip,0,what does reiserfs means ?
+186,milen8204,ActionParsnip,0,:D
+187,ActionParsnip,milen8204,0,there is no single best app for any single situation
+188,ActionParsnip,milen8204,0,so the answer is: none and all
+189,ActionParsnip,milen8204,0,it's as intelligent as asking 'what is the best colour?'
+190,milen8204,ActionParsnip,0,ok which is most popular then others :D
+191,ActionParsnip,milen8204,0,"qemu, virtualbox, vmware"
+192,milen8204,ActionParsnip,1,thanks :)
+193,ActionParsnip,milen8204,0,sure you can use a dock if you wish
+194,milen8204,ActionParsnip,1,jtr__  thanks
+195,ActionParsnip,milen8204,0,I'd ask in #vbox too ;)
+196,milen8204,ActionParsnip,0,I will ask there too
+197,milen8204,ActionParsnip,0,i didn`t get any answer
+198,RP64,,0,BAK GUSY
+199,RP64,,0,GUSY
+200,RP64,,0,GUYS lol
+201,RP64,,0,voss: its 8.10
+202,theadmin,RP64,0,"This means you will have to upgrade from that to 9.04, then to 9.10"
+203,RP64,theadmin,0,in my updates list it says on top 'new version 9.10 click here for upgrade' tho wtf?
+204,theadmin,RP64,0,or?
+205,theadmin,RP64,0,Depends on the codec
+206,theadmin,RP64,0,"I mean, windows codecs (at least default ones) are a piece of... ahem."
+207,theadmin,RP64,0,Strike that.
+208,theadmin,RP64,0,Are bad.
+209,RP64,theadmin,0,lols so
+210,RP64,theadmin,0,so u mean the sound codecs for ubuntu are much better for the stuff thats non WMA
+211,theadmin,RP64,0,Because billy cares only for money
+212,theadmin,RP64,0,And Ubuntu is designed for human beings
+213,theadmin,RP64,0,Shuttleworth is the leader of Ubuntu project...
+214,theadmin,RP64,0,But come on.
+215,theadmin,RP64,0,Ubuntu won't screw you... more likely windows will
+216,theadmin,RP64,0,"Meh, it's not that noticable except for the full circle and the name"
+217,theadmin,RP64,0,Try out Linux Mint.
+218,theadmin,RP64,0,It's Ubuntu-based but has nothing to do with that stuff.
+219,theadmin,RP64,0,Ever heard of the tab key?
+220,theadmin,RP64,0,"Type first few letters of the nickname and hit TAB, it will insert the full nickname."
+221,theadmin,RP64,0,Like this: foxm + tab = foxmulder881
+222,RP64,theadmin,0, OH kool thx
+223,theadmin,RP64,0,It won't delete if you update it.
+224,theadmin,RP64,0,It might delete some configurations
+225,RP64,theadmin,0,i dont mean update i mean upgrade
+226,theadmin,RP64,0,Same thing
+227,RP64,theadmin,0, wait but GNEA told me if u update ur VERSION then it deletes everything outside of home folder?
+228,RP64,theadmin,0,!
+229,theadmin,RP64,0,"your home folder is most likely where you keep your stuff, no?"
+230,RP64,theadmin,0, idono rly i havent used ubuntu for 6 months i forget about where everything is
+231,RP64,theadmin,0," that stuffs pro but u need to have stuff super organized and thought out to do that, i am super disorganized"
+232,RP64,theadmin,0, whats your X
+233,theadmin,RP64,0,The graphical environment stuff
+234,RP64,theadmin,0, oh is that new abreviation i thought thats GFX??
+235,RP64,theadmin,0,?
+236,theadmin,RP64,0,gfx is graphical EFFECTS lol
+237,RP64,theadmin,0, LoLS wtf
+238,theadmin,RP64,0,No idea.
+239,theadmin,RP64,0,Hm?
+240,RP64,theadmin,0,I upgraded from 8.10 to 9.04 and now my laptop's media buttons dont work properly and my login logout sounds / sound theme isn't playing properly
+241,theadmin,RP64,0,Media buttons...?
+242,theadmin,RP64,0,!
+243,RP64,theadmin,0, Do these problems arise from upgrading versions through the software update or is this abnormal
+244,theadmin,RP64,0,Updates tend to break stuff sometimes.
+245,theadmin,RP64,0,But it's usually not that major.
+246,RP64,theadmin,0," yeah like laptops have 'play , stop , next song ' and stuff, mine all work but the volume control ones don't work properly anymore"
+247,RP64,theadmin,0, it is major though cus these things are pretty important so how can I fix them?
+248,RP64,theadmin,0, why do updates break things anyways?
+249,RP64,theadmin,0,Can it be fixed?
+250,theadmin,RP64,0,"Hah, that."
+251,theadmin,RP64,0,"Don't worry, volume stuffs are broken on Jaunty for me too, known problem."
+252,theadmin,RP64,0,Karmic has them working :/
+253,RP64,theadmin,0," so wats karmic lols, the newest 1?"
+254,theadmin,RP64,0,"Yah, 9.10"
+255,RP64,theadmin,0, and wat about the sound theme/ login sounds?
+256,theadmin,RP64,0,As per that.
+257,theadmin,RP64,0,Hm... Do you get any sounds at all?
+258,RP64,theadmin,0, yeah sound is working and the sound theme plays normally when I sample play the sounds
+259,theadmin,RP64,0,"Okay, then a few checks, does 'System -> Preferences -> Startup apps' contain 'GNOME Login Sounds'?"
+260,RP64,theadmin,0,contain that
+261,RP64,theadmin,0,no it doesn't
+262,theadmin,RP64,0,There is the problem.
+263,theadmin,RP64,0,"Click on 'add', and put anything as name/comment and the following as 'Command': /usr/bin/canberra-gtk-play --id='desktop-login' --description='GNOME Login'"
+264,RP64,theadmin,0,It doesn't lol so wat shuld I dew
+265,RP64,theadmin,0,Anything as name/ comment?
+266,theadmin,RP64,0,"It asks for 3 things, 'Name', 'Comment' and 'Command'."
+267,theadmin,RP64,0,Name and comment do not matter in our case.
+268,RP64,theadmin,0,OK i added it now what?
+269,theadmin,RP64,0,K it should work now
+270,RP64,theadmin,0,Kewl but wat about the log out sound too?
+271,theadmin,RP64,0,I don't think there is one anymore
+272,RP64,theadmin,0,WHAT???
+273,RP64,theadmin,0,why ?
+274,RP64,theadmin,0,?
+275,RP64,theadmin,0,r u sure?
+276,RP64,theadmin,0,?
+277,RP64,theadmin,0, Cus its option in the sounds list
+278,theadmin,RP64,0,"No idea, but there is no sound on log out for me"
+279,RP64,theadmin,0,Culd u create one using this startup aps thing too or no?
+280,theadmin,RP64,0,"You can do _anything_ in Linux, but you must know how."
+281,theadmin,RP64,0,"Unfortunately, I've no idea how."
+282,RP64,theadmin,0, BRB im testing login sound
+283,RP64,theadmin,0,Kewl dawg it werks !!
+284,RP64,theadmin,1,1 thx man
+285,RP64,theadmin,0,But do u know anything about the logout sound?
+286,RP64,theadmin,0,Cus my sound theme is so awwwsumm...
+287,RP64,theadmin,0,IF they removed it why is it in the sounds list still ?
+288,RP64,theadmin,0,?
+289,theadmin,RP64,0,That's some craziness Ubuntu people made up
+290,RP64,theadmin,0,so what am I supposed to do about using firefox??
+291,RP64,theadmin,0,download the logo for it again?
+292,theadmin,RP64,0,If you updated to 3.6 from 3.5 then you probably can't do much
+293,RP64,theadmin,0,HUH?
+294,RP64,theadmin,0,its from 9.04 to 9.10 ...
+295,RP64,theadmin,0,??
+296,RP64,theadmin,0,?
+297,theadmin,RP64,0,Ohhh
+298,RP64,theadmin,0,you mean version of firefox then how can I even tell if it did that?
+299,theadmin,RP64,0,Lol then you must install firefox-3.5-branding package
+300,theadmin,RP64,0,"well, try this first to tell if branding is installed: dpkg -l | grep 'firefox-3.5-branding'"
+301,RP64,theadmin,0,is that a small L or a 1
+302,theadmin,RP64,0,Copy-paste if you're unsure :P that's an L
+303,RP64,theadmin,0,lol well I used ubuntu for 1 year alreadyi just said 'hacking' cus the name of the forum post says hack in the title...
+304,RP64,theadmin,0,"im not on ubuntu for this chat this is my windows comp, got my laptop ubuntu on my leftside im double comping it up gangsta style"
+305,RP64,theadmin,0,"it responds with information on the package, so i guess its installed"
+306,theadmin,RP64,0,I assume it has 'ii' there right
+307,RP64,theadmin,0,yeah
+308,RP64,theadmin,0,:D:D
+309,theadmin,RP64,0,"Well, then o_O Hm... good, but you may need to assign the icon manually"
+310,RP64,theadmin,0,lol and in the synaptic it says that firefox 3.5 branding is installed ...
+311,theadmin,RP64,0,The icon file is /usr/share/pixmaps/firefox-3.5.png
+312,RP64,theadmin,0,is that the same icon as the one you're referencing?
+313,RP64,theadmin,0,like same size same file?
+314,RP64,theadmin,0,U never answerd me???
+315,RP64,theadmin,0,D:
+316,theadmin,RP64,0,"sry, i dunno"
+317,RP64,theadmin,0,is the icon he suggested the same as the one you suggested
+318,theadmin,RP64,0,"Yes, she's a bot, don't bother her."
+319,theadmin,RP64,0,I beleive some factoid stated ubottu is female.
+320,RP64,theadmin,0,I happen to know ubottu is a he
+321,RP64,theadmin,0,He's lying for strategy
+322,theadmin,RP64,0,Don't be paranoid :/
+323,RP64,theadmin,0, I'm not it's obvious
+324,theadmin,RP64,0,You have to create it
+325,RP64,theadmin,0,Seriously?
+326,RP64,theadmin,0,But wouldn't you have to download it  how would I create it it has to have something in it right
+327,theadmin,RP64,0,xorg.conf is honestly no longer required.
+328,theadmin,RP64,0,The missing sections are auto-configured.
+329,theadmin,RP64,0,If all sections are missing (i.e.
+330,theadmin,RP64,0,"file is empty or doesn't exist), it autoconfigures, well, everything"
+331,abhi_nav,,0,!rsync
+332,abhi_nav,,0,for all of you: http://www.daniweb.com/news/story265826.html
+333,ActionParsnip,abhi_nav,0,the things it lists are present in all linux distros.
+334,abhi_nav,ActionParsnip,0,a just wanted to point out that article not for any debate
+335,ActionParsnip,abhi_nav,0,its offtopic here too ;)
+336,abhi_nav,ActionParsnip,0,hmm :-)
+337,ActionParsnip,abhi_nav,0,typed what?
+338,ActionParsnip,abhi_nav,0,"ubottu is sleeping, i'm sure there is some work being done on her or somesuch"
+339,ActionParsnip,abhi_nav,0,british pounds
+340,abhi_nav,ActionParsnip,0,hmmm thnx
+341,ActionParsnip,abhi_nav,0,http://shop.canonical.com/product_info.php?products_id=512
+342,ActionParsnip,abhi_nav,0,it was as this is Ubuntu OS support ONLY
+343,abhi_nav,ActionParsnip,0,hmm ok thnx for link
+344,ActionParsnip,abhi_nav,0,"like people having issue with their OS, not merch"
+345,ActionParsnip,abhi_nav,0,unless you accidentally shoot their wife dead
+346,abhi_nav,ActionParsnip,0,haa haa ha :D :) ;)
+347,abhi_nav,ActionParsnip,0,I am planning to use my current hdd (on which this ubuntu 9.04 is installed) to use as backup disk and to have fresh install of ubuntu on new hdd.
+348,abhi_nav,ActionParsnip,0,Which is the better way to proced?
+349,abhi_nav,ActionParsnip,0,1.
+350,abhi_nav,ActionParsnip,0,Install 9.04 on new disk and then upgrade to 9.10 2. do fresh installation of 9.10 on new hdd 3. upgrade from 9.04 to 9.10 to 10.04 4. upgrade from 9.10 to 10.04 5.
+351,abhi_nav,ActionParsnip,0,Should I use 9.04 itself till the end of its life?
+352,abhi_nav,ActionParsnip,0,or upgrade it to 9.10
+353,abhi_nav,ActionParsnip,0,trinikrono recommended to use 9.04 untill 10.04 comes out
+354,ActionParsnip,abhi_nav,0,if you clean install use 9.10 unless you are ok with fixing bugs then use 10.04
+355,ActionParsnip,abhi_nav,0,i wouldnt bother with 9.04 and 9.10 is stable
+356,abhi_nav,ActionParsnip,0,yes clean install
+357,ActionParsnip,abhi_nav,0,go for 9.10 then
+358,abhi_nav,ActionParsnip,1,ok. thank you.
+359,abhi_nav,ActionParsnip,0,:D
+360,ActionParsnip,abhi_nav,0,"uname -a | grep i686    if you get an output its 32bit, if not then its 64bit"
+361,ActionParsnip,abhi_nav,0,that is the architecture of the OS
+362,ActionParsnip,abhi_nav,0,if you run: cat /proc/cpuinfo | head -n 20     you can websearch for your CPU model to see if its 64bit
+363,ActionParsnip,abhi_nav,0,"ok your ubuntu install is 32bit, but you can run a 32bit OS on a 64bit CPU (mostly)"
+364,abhi_nav,ActionParsnip,0,darolu: Trek: this is output of lshw | grep width : http://paste.ubuntu.com/399129/
+365,abhi_nav,ActionParsnip,0,darolu: Trek: this is output of cat /proc/cupinfo | head -n 20 http://paste.ubuntu.com/399130/
+366,abhi_nav,ActionParsnip,0,darolu: Trek: is it that 64 systems have less no.
+367,abhi_nav,ActionParsnip,0,of apps or less no.
+368,abhi_nav,ActionParsnip,0,of driver support etc?
+369,ActionParsnip,abhi_nav,0,T5750 is 64bit
+370,abhi_nav,ActionParsnip,0,hmm
+371,ActionParsnip,abhi_nav,0,"64bit is very supported, some companys dont make 64bit but a large majority do (some games only come in 32bit flavour from what ive seen)"
+372,abhi_nav,ActionParsnip,0,darolu: ohh ok. so e.g.
+373,abhi_nav,ActionParsnip,0,If i only have a aps or game of 32 bit then i can easily run it on my 64 bit 9.10?
+374,ActionParsnip,abhi_nav,0,"should be fnie yes, you will most likely find that all apps are 64bit available (unless you get real unlucky)"
+375,abhi_nav,ActionParsnip,0,ohhhh hmmm :D
+376,abhi_nav,ActionParsnip,0,darolu: Trek: Thank you!
+377,ActionParsnip,abhi_nav,0,http://releases.ubuntu.com/karmic/
+378,abhi_nav,ActionParsnip,0,^^
+379,ActionParsnip,abhi_nav,0,the 64bit torrent is on the page i gave you too
+380,abhi_nav,ActionParsnip,0,yah I found!!
+381,abhi_nav,ActionParsnip,0,!
+382,ActionParsnip,abhi_nav,0,64bit will only give speed in certain cases
+383,abhi_nav,ActionParsnip,0,only certain means?
+384,abhi_nav,ActionParsnip,0,not always?
+385,abhi_nav,ActionParsnip,0,I want always
+386,ActionParsnip,abhi_nav,0,"for standard desktop stuff there will be no speed increase, if you do lots of music encoding, dvd encoding then it is advantageous"
+387,ActionParsnip,abhi_nav,0,64bit isnt twice as fast
+388,abhi_nav,ActionParsnip,0,ohh I see
+389,abhi_nav,ActionParsnip,0,why?
+390,abhi_nav,ActionParsnip,0,Theoritically it should be naa?
+391,ActionParsnip,abhi_nav,0,"no, its just a larger adressing range for ram"
+392,ActionParsnip,abhi_nav,0,and larger data registers in the cpu
+393,ActionParsnip,abhi_nav,0,i think you need to read on what 64bit actually means
+394,abhi_nav,ActionParsnip,0,ok
+395,abhi_nav,ActionParsnip,0,ok I read.
+396,abhi_nav,ActionParsnip,0,where?
+397,abhi_nav,ActionParsnip,0,I google it?
+398,ActionParsnip,abhi_nav,0,its an option
+399,abhi_nav,ActionParsnip,0,hmm
+400,abhi_nav,ActionParsnip,0,ranjan: darolu:  ok can I upgrade form 32 bit to 64 bit in future?
+401,ActionParsnip,abhi_nav,0,"no, you have to re-install"
+402,abhi_nav,ActionParsnip,0,ok
+403,abhi_nav,ActionParsnip,0,ranjan: darolu:  So now I am going for 64 bit.
+404,abhi_nav,ActionParsnip,1,Thank all of you!!
+405,abhi_nav,ActionParsnip,0,!
+406,ActionParsnip,abhi_nav,0,any time
+407,abhi_nav,ActionParsnip,0,ha :D
+408,abhi_nav,ActionParsnip,0,when I check in software center it says that it is already installed
+409,abhi_nav,ActionParsnip,0,shoudl i reinstall?
+410,ActionParsnip,abhi_nav,0,you will have to install 32bit libs any of the apps need manually
+411,abhi_nav,ActionParsnip,0,manually?
+412,abhi_nav,ActionParsnip,0,how?
+413,abhi_nav,ActionParsnip,0,i want to install 32 bit mmc on 64 bit ubjuntu
+414,ActionParsnip,abhi_nav,0,then you have what you need just install your deb with --force-all option and it will install
+415,abhi_nav,ActionParsnip,0,ok i try wait
+416,abhi_nav,ActionParsnip,0,using command it wll only install from database of aptget.
+417,abhi_nav,ActionParsnip,0,but mmc is not there in ubuntu repository.
+418,abhi_nav,ActionParsnip,0,it is in my home folder .
+419,abhi_nav,ActionParsnip,0,then how to install?
+420,ActionParsnip,abhi_nav,0,you will need a 32bit deb for what you want.
+421,ActionParsnip,abhi_nav,0,You won't get it via apt-get
+422,abhi_nav,ActionParsnip,0,i have that 32 bit deb
+423,abhi_nav,ActionParsnip,0,whoohaa !!!!!!
+424,abhi_nav,ActionParsnip,0,yes it done!!!
+425,abhi_nav,ActionParsnip,1,thanks :)
+426,ActionParsnip,abhi_nav,0,some apps may not run right away quoting missing libs which you will need to put in /usr/lib32
+427,abhi_nav,ActionParsnip,0,ok.
+428,abhi_nav,ActionParsnip,0,I will.
+429,abhi_nav,ActionParsnip,0,he is most probably talking abotu Jetflash
+430,ActionParsnip,abhi_nav,0,i access it in evolution using op
+431,abhi_nav,ActionParsnip,0,'op'?
+432,ActionParsnip,abhi_nav,0,s/op/pop
+433,abhi_nav,ActionParsnip,0,what is that?
+434,ActionParsnip,abhi_nav,0,it means 'switch op for pop'
+435,abhi_nav,ActionParsnip,0,"ohh you mean imap , pop , pop3, ?"
+436,abhi_nav,ActionParsnip,0,that one pop?
+437,ActionParsnip,abhi_nav,0,looks like a weird gaming device
+438,ActionParsnip,abhi_nav,0,http://lh3.googleusercontent.com/3Zl8PhoJvF8G-dWPmyV9DSXjz4OwJEiEwSX_aiakm_gVIKAaTl0Pc8vQMo8N5fXKvhceRkbF9AUDXfjaYo3P39zK84qrsXnWgRFWh1IP3JEPD2vucb9m1bq0ReA_
+439,abhi_nav,ActionParsnip,0,Redache aahhh ok
+440,abhi_nav,ActionParsnip,0,just curiosity.
+441,abhi_nav,ActionParsnip,0,if someone placed keylogger in some useful app and I installed that ap from ppa.
+442,abhi_nav,ActionParsnip,0,then wll that keylogger wll be able sent info to its owner?
+443,abhi_nav,ActionParsnip,0,or my ubuntu firewall wll identify it as virus and stop it?
+444,ActionParsnip,abhi_nav,0,not sure
+445,ActionParsnip,abhi_nav,0,stick to the official repos only
+446,abhi_nav,ActionParsnip,0,ok I wll
+447,ActionParsnip,abhi_nav,0,could also run scans for stuff every now and again.
+448,ActionParsnip,abhi_nav,0,Depends on how many tinfoil hats you have
+449,abhi_nav,ActionParsnip,0,means?
+450,abhi_nav,ActionParsnip,0,I dont understand
+451,ActionParsnip,abhi_nav,0,go sling tinfoil hat into wikipedia
+452,abhi_nav,ActionParsnip,0,ok
+453,abhi_nav,ActionParsnip,0,I read.
+454,abhi_nav,ActionParsnip,0,Dr_Willis in cant type number in english in oo.
+455,abhi_nav,ActionParsnip,0,text is in english all settings are for english (uk).
+456,abhi_nav,ActionParsnip,0,numbers appers in some wierd language.
+457,abhi_nav,ActionParsnip,0,this problem only for this standard account not in my admin account.
+458,abhi_nav,ActionParsnip,0,any suggestion?
+459,ActionParsnip,abhi_nav,0,"sudo lshw | less ,may help"
+460,ActionParsnip,abhi_nav,0,https://help.ubuntu.com/community/IrcServer
+461,abhi_nav,ActionParsnip,0,yah :)
+462,abhi_nav,ActionParsnip,0,:D
+463,abhi_nav,ActionParsnip,0,ohh :D
+464,matin,,0,ok so no one is responding on #svn
+465,Flannel,matin,0,What are you having trouble with?
+466,matin,Flannel,0,i followed tutorials
+467,Flannel,matin,0,Are you following a guide?
+468,Flannel,matin,0,Are you trying to set up a server?
+469,Flannel,matin,0,just to use it as a client?
+470,Flannel,matin,0,"Alright, which tutorial?"
+471,Flannel,matin,0,just so I know what steps they're having you go through
+472,matin,Flannel,0,http://www.howtogeek.com/howto/ubuntu/install-subversion-with-web-access-on-ubuntu/
+473,Flannel,matin,0,Alright.
+474,Flannel,matin,0,"In general howtogeek is a horrible place for accurate tutorials (for Debian based systems, they tend to do things the RPM based way), but this one looks pretty accurate (mostly because its straightforward)."
+475,Flannel,matin,0,What steps are you having trouble with?
+476,Flannel,matin,0,"or just 'get to end, stuff don't work'?"
+477,Flannel,matin,0,Alright.
+478,Flannel,matin,0,"That makes sense, now that I take a second look at that tutorial."
+479,Flannel,matin,0,"Let me ask, is your intent to do this via apache?"
+480,Flannel,matin,0,(http(s):// links) or do you not care what protocol?
+481,Flannel,matin,0,Do you want/need the apache browsing ability?
+482,Flannel,matin,0,Right.
+483,Flannel,matin,0,"So, you're already running apache on this machine (or don't mind running it if you're not already)?"
+484,Flannel,matin,0,"Alright, just a couple more questions."
+485,Flannel,matin,0,Do you intend for this to be local-LAN only?
+486,Flannel,matin,0,or visible from the outside world?
+487,Flannel,matin,0,over http or https or both?
+488,Flannel,matin,0,"Well, currently you're serving stuff over http but not https."
+489,Flannel,matin,0,The only thing about this with regard to your svn is it means your passwords would be transmitted in plaintext.
+490,Flannel,matin,0,I suggest you make sure to use a different svn password than your regular user account password.
+491,Flannel,matin,0,Just be congizant of it :)
+492,Flannel,matin,0,"So, lets make this work."
+493,Flannel,matin,0,"From that tutorial, I think you have a /svn directory, is this true?"
+494,Flannel,matin,0,"Alright, lets go ahead and delete that."
+495,Flannel,matin,0,"We have to re-create the repository anyway, so the least we can do is do it in a non-obnoxious location."
+496,Flannel,matin,0,"I'll come back to that, give me a sec."
+497,Flannel,matin,0,"Do you have /var on a separate (large) partition, because you're expecting to put a lot of stuff in /var/www?"
+498,Flannel,matin,0,or do we just have one partition with everything on it?
+499,Flannel,matin,0,... why did you do that?
+500,Flannel,matin,0,"No worries, everyone is new at some point :)"
+501,Flannel,matin,0,Alright.
+502,Flannel,matin,0,"I'm not going to deal with that at the moment, but go ahead and pastebin the output of `df -h` (pastebin is http://planet.ubuntu.com/, you paste output, hit 'submit' then give the url here for us to look at)"
+503,Flannel,matin,0,"Er, sorry."
+504,Flannel,matin,0,paste.ubuntu.com
+505,matin,Flannel,0,any directory?
+506,Flannel,matin,0,just `df -h`
+507,Flannel,matin,0,"Alright, so we've just got everything in /, which is fine."
+508,Flannel,matin,0,"We're still going to put /svn in /var though, because that's where it belongs."
+509,Flannel,matin,0,"(There is no standard here, other than /var for variable sized data)"
+510,Flannel,matin,0,"Personally, I made a /var/devel/ which I then put /svn/ and other things in, but you're free to just create it in /var/svn/"
+511,Flannel,matin,0,"No, we're not moving, we're going to delete the old one: `sudo rm -r /svn` (Be very careful with that, you don't want a space in between '/' and 'svn')"
+512,Flannel,matin,0,No
+513,Flannel,matin,0,"Alright, now go ahead and make a svn folder, sudo mkdir /var/svn/ if you want it in /var/svn/ (for example, mine is /var/devel/svn/)"
+514,Flannel,matin,0,That's fine.
+515,Flannel,matin,0,Ok.
+516,Flannel,matin,0,"So, in our head we realize we have to update the apache config to point there, which we'll do in a minute."
+517,Flannel,matin,0,"Right now, I need to ask: Is this going to be your only svn repository?"
+518,Flannel,matin,0,or do you think you'll have an immediate need for more than one?
+519,Flannel,matin,0,"We can add more later, of course, so you're not really locked in, but we can do it for '1' now or for 'many' now (with a little bit more work)"
+520,Flannel,matin,0,"Alright, good."
+521,Flannel,matin,0,"Alright, I'd normally say we're ready to create it, but before, I feel compelled to ask: did you change the default user/group that apache runs as?"
+522,Flannel,matin,0,this would consist of replacing `www-data` with $something-else in your apache config.
+523,Flannel,matin,0,"This is why I asked :)  Also, did I mention howtogeek is a rotten place for tutorials yet?"
+524,Flannel,matin,0,:)
+525,Flannel,matin,0,"If you didn't change anything, /etc/apache2/envvars would list it, BUT since you may have hardcoded it, we'll need to probably check /etc/apache2/apache2.conf."
+526,Flannel,matin,0,"So, the command to do that:"
+527,Flannel,matin,0,"Nah, we'll use grep, it's easier!"
+528,Flannel,matin,0,"Let me pause this, because this is a teaching moment."
+529,Flannel,matin,0,"So, `sudo` is only used when you need elevated permissions."
+530,Flannel,matin,0,"MOST (not all, but probably 99%) config files are world readable, so there's no reason to sudo nano /etc/apache2/apache2.conf (unless you intend to change something) or sudo grep /etc/whatever"
+531,Flannel,matin,0,"Its not the end of the world, most of the time sudo X will work just fine, but it can cause problems, and certainly can lead to accidental changes :)"
+532,Flannel,matin,0,"anyway, the command you can pastebin the output to is: grep User /etc/apache2/apache2.conf && grep Group /etc/apache2/apache2.conf && grep www-data /etc/apache2/envvars"
+533,Flannel,matin,0,"All on one line (command1 && command2 && command3 means 'do command1, then if it has no errors, do command2, and the same with command3)"
+534,Flannel,matin,0,"So that command looked first for the string 'User' in /etc/apache2/apache2.conf, then it looked for 'Group' in the same file, and then the last command looked for 'www-data' in /etc/apache2/envvars"
+535,Flannel,matin,0,"The first two told me you haven't hard coded the values (theyre still ${APACHE_RUN_USER} and ${APACHE_RUN_GROUP}, respectively) and the last one told me you haven't changed the defaults for those settings either."
+536,Flannel,matin,0,Still with me?
+537,Flannel,matin,0,Or confused as heck?
+538,Flannel,matin,0,"(Take your time, just want to make sure you're not looking at the screen dumbfounded)"
+539,matin,Flannel,0,sorry had to get up for a second
+540,Flannel,matin,0,No worries.
+541,Flannel,matin,0,Alright.
+542,Flannel,matin,0,"So, the point of that was to figure out what user and group apache runs as."
+543,Flannel,matin,0,"You're still default, which means it runs as www-data:www-data."
+544,matin,Flannel,0,right
+545,Flannel,matin,0,"Now that we know that, we want to make /var/svn/ owned by www-data:www-data (because the apache user is going to be how we interact with it): sudo chown www-data:www-data /var/svn/"
+546,Flannel,matin,0,"Now, we're ready to create our svn repository."
+547,Flannel,matin,0,"Again, we want to do this as our apache user."
+548,Flannel,matin,0,"So we'll use sudo to open a shell as our apache user, then move to our subversion directory, then make a repository."
+549,Flannel,matin,0,What name do you want to give this repository?
+550,matin,Flannel,0,triumph
+551,Flannel,matin,0,Alright.
+552,Flannel,matin,0,"So, `sudo -u www-data -i` (it likely won't ask for your password, but if it does, remember, it's YOUR password)"
+553,Flannel,matin,0,then you'll see probably nothing but a `$` prompt.
+554,Flannel,matin,0,"You're essentially logged in as apache right now, you can probably `ls` and see your site's files."
+555,Flannel,matin,0,"So we want to change to our subversion directory, `cd /var/svn/`"
+556,Flannel,matin,0,and then create our repository: `svnadmin create triumph`
+557,Flannel,matin,0,sure
+558,Flannel,matin,0,"Oh, this could be due to the fact that you moved it to your homedir."
+559,Flannel,matin,0,"You can cd /var/svn/ and `ls` successfully though, right?"
+560,Flannel,matin,0,"(it'll be empty, but it wont error)"
+561,Flannel,matin,0,"No, don't do that."
+562,Flannel,matin,0,That's alright.
+563,Flannel,matin,0,"It gave you a 'you're not allowed' message anyway, because you're www-data, right?"
+564,Flannel,matin,0,"(even if you did it as your user, we can fix it later)"
+565,Flannel,matin,0,right.
+566,Flannel,matin,0,"So, `svnadmin create triumph`  (we could have just did `svnadmin create /var/svn/triumph` instead of cd etc too, but this is obviously more educational :)"
+567,Flannel,matin,0,"Just in the terminal, where you're currently in /var/svn/ as www-data"
+568,Flannel,matin,0,Same terminal
+569,Flannel,matin,0,"'triumph' in that case is a relative path, 'whereever I am' being the default working directory"
+570,Flannel,matin,0,"Alright, now we want to get out of our www-data terminal, and go back to your normal user, so we use `exit` (which is similar but different than logout)"
+571,Flannel,matin,0,"After that, we need to go into apache and point it at our new repository location."
+572,Flannel,matin,0,"So... lets see, this would be in /etc/apache2/sites-available/default"
+573,Flannel,matin,0,"At least, that's probably where it is."
+574,Flannel,matin,0,You may have done it differently if you were using a different tutorial.
+575,Flannel,matin,0,"We want to edit that file, so `sudo nano /etc/apache2/sites-available/default` in that file you should see a <Location /svn> directive, with SVNPath /svn in it, etc."
+576,Flannel,matin,0,"If you don't, let me know, we'll need to find it."
+577,Flannel,matin,0,"No, we want the enabled one."
+578,Flannel,matin,0,Alright.
+579,Flannel,matin,0,"Go ahead and open that, and pastebin its contents please (there shouldn't be anything sensitive in it)"
+580,Flannel,matin,0,"That doesn't look like a complete file, but just a section of the middle of one."
+581,Flannel,matin,0,(actually it looks like the end of it)
+582,Flannel,matin,0,"Oh, right."
+583,Flannel,matin,0,"Sorry, you're right!"
+584,Flannel,matin,0,there isn't a <Location /svn> in that file!
+585,Flannel,matin,0,"Because as of ... 10.04 or 8.04 or something, it's actually in /etc/apache2/mods-available/dav_svn.conf"
+586,Flannel,matin,0,"so, go ahead and close this file, then open that (with sudo) in nano."
+587,Flannel,matin,0,(and pastebin if you don't mind!)
+588,Flannel,matin,0,Alright.
+589,Flannel,matin,0,"Now we need to change line 11, where it says SVNPath /svn, we need to move that to point to our new path, SVNPath /var/svn/triumph"
+590,Flannel,matin,0,"Save it, restart apache, and it should be."
+591,Flannel,matin,0,You should see 'Revision: 0' at http://playtriumph.tk/svn once you log in.
+592,Flannel,matin,0,Which one?
+593,Flannel,matin,0,Did you view http://playtriumph.tk/svn/ or  http://playtriumph.tk/svn ?
+594,Flannel,matin,0,(trailing slash)
+595,Flannel,matin,0,Alright.
+596,Flannel,matin,0,"Lets look at our apache error log, that'll tell us what it's not able to do."
+597,Flannel,matin,0,pastebin `tail -n 25 /var/log/apache2/error.log` (that just displays the last (up to) 25 lines of that file)
+598,Flannel,matin,0,"Alright, if I had to guess, I'd say we didn't successfully update /etc/apache2/mods-available/dav_svn.conf"
+599,Flannel,matin,0,"Actually, let me ask this instead."
+600,Flannel,matin,0,Can you please pastebin the contents of /etc/apache2/mods-enabled/dav_svn.conf?
+601,Flannel,matin,0,"Alright, so you have (line 19): SVNPath /svn/triumph, this needs to be /var/svn/triumph"
+602,Flannel,matin,0,"If you look at your error log, it was looking for /svn/triumph/format (format is a file in the repository that apache was looking for), which is how I knew this wasn't configured correctly (should be looking for /var/svn/triumph/format)"
+603,Flannel,matin,0,"So, now go back to your homedir, make a scratch folder, go into it."
+604,Flannel,matin,0,`svn checkout https://playtriumph.tk/svn/ .`
+605,Flannel,matin,0,"That'll checkout the repository (its empty) to your current working directory (which, you've made a new folder for)"
+606,Flannel,matin,0,"Er sorry, http not https."
+607,Flannel,matin,0,"you can do this on your macbook pro, if you have svn installed."
+608,Flannel,matin,0,"At this point, your server is set up, and we're off to svn-land."
+609,Flannel,matin,0,Install svn on your macbook....
+610,Flannel,matin,0,I don't really know how to do that :)  We CAN do it on your server too if that's easier
+611,Flannel,matin,0,http://svnbook.red-bean.com/en/1.7/svn.intro.quickstart.html  That book is a good book.
+612,Flannel,matin,0,"You oviously don't need to set up a repository, just use it, so you can skip the first svnadmin bit."
+613,Flannel,matin,0,`svn` is the command
+614,Flannel,matin,0,"If you've got stuff you want to import, then svn import will work."
+615,Flannel,matin,0,"I prefer an initial structure commit first, but that's just personal preference."
+616,Flannel,matin,0,"svn commit -m 'message', I encourage you to peruse that page/its links (and the rest of it)."
+617,Flannel,matin,0,"It's actually a pretty quick read for the basics (skip the reference and advanced stuff, etc)"
+618,Flannel,matin,0,especially if you're already familiar with git
+619,Flannel,matin,0,http://svnbook.red-bean.com/en/1.7/svn.tour.importing.html for instance.
+620,Flannel,matin,0,You need to svn add first.
+621,Flannel,matin,0,"You've checked out, then you copy (filesystem) then add (files from filesystem into svn), then commit."
+622,Flannel,matin,0,"`svn status` will tell you what has been added (not yet committed), or question marks mean 'not under version control'"
+623,Flannel,matin,0,`svn add file`
+624,Flannel,matin,0,"where file is a particular file, or a glob of files"
+625,Flannel,matin,0,to add your current directory?
+626,macnix,,0,I have the most annoying network interface problem on 10.04.02 64bit which I just can't figure out
+627,macnix,,0,"ifconfig output is good, I can ping it, but none of the services are available"
+628,macnix,,0,it just hangs when I try to connect via ssh or http to anything but the primary IP
+629,milamber,macnix,0,check the router config?
+630,macnix,milamber,0,"this is a server with an ISP, don't have access to the router"
+631,milamber,macnix,0,does your isp allow you to run it remotely?
+632,macnix,milamber,0,this is the full picture https://gist.github.com/93472542fb4d0ca5cc27
+633,macnix,milamber,0,you mean run nmap remotely?
+634,milamber,macnix,0,yes
+635,milamber,macnix,0,does it show the right ports as interesting?
+636,macnix,milamber,0,"if I run traceroutes to the IPs, they stop at the firewall so I can't get to the actual machines, to confirm that the IPs have been allocated correctly"
+637,macnix,milamber,0,but they all respond to pings and they didn't until I set them up on the server
+638,macnix,milamber,0,I have NEVER had this problem before on Ubuntu and did quiet a few multi-IP setups
+639,milamber,macnix,0,it really doesn't seem like an ubuntu problem.
+640,milamber,macnix,0,sounds like a network setup issue.
+641,milamber,macnix,0,1 sec.
+642,macnix,milamber,0,"that's what I thought, but I need ammo if I'm going to tell the biggest DC in Europe that they got their network config screwed :D"
+643,milamber,macnix,0,what is the output of route -n?
+644,macnix,milamber,0,"sorry, got a brew"
+645,macnix,milamber,0,updated the pastie with route -n output https://gist.github.com/93472542fb4d0ca5cc27
+646,macnix,milamber,0,direct link https://gist.github.com/93472542fb4d0ca5cc27#file_route_n.output.sh
+647,macnix,milamber,0,any ideas?
+648,milamber,macnix,0,"no, everything looks ok ."
+649,milamber,macnix,0,.
+650,milamber,macnix,0,.
+651,milamber,macnix,0,still working on it though
+652,macnix,milamber,1,"cool, thanks"
+653,macnix,milamber,0,"I attempted to figure out a fix twice, with a few days in between, so I've triple checked everything on my end"
+654,macnix,milamber,0,"it feels like I'm missing something, but I don't know what"
+655,macnix,milamber,0,think I took my networking experience as far as I could : )
+656,milamber,macnix,0,have  you restarted networking?
+657,macnix,milamber,0,"yes, like 10 times :)"
+658,milamber,macnix,0,that seems like an issue.
+659,macnix,milamber,0,taking its time to come back up..
+660,milamber,macnix,0,related maybe?
+661,milamber,macnix,0,https://bugs.launchpad.net/ubuntu/+source/ifupdown/+bug/663352
+662,macnix,milamber,0,spot on!
+663,macnix,milamber,0,reading about it...
+664,macnix,milamber,0,"hmm, from what I read, that bug refers to the desktop version"
+665,milamber,macnix,0,"it might apply to other versions also, just noticed there."
+666,milamber,macnix,0,is your computing machine back up?
+667,macnix,milamber,0,yes
+668,milamber,macnix,0,does ifconfig eth0:1 give you anything?
+669,macnix,milamber,0,so all 3 IPs appear in ifconfig (same as in my pastie)
+670,macnix,milamber,0,"nmap only returns the open ports for eth0, nothing for eth0:0 or eth0:1"
+671,macnix,milamber,0,nmap reports them as being down: Nmap done: 1 IP address (0 hosts up) scanned in 0.42 seconds
+672,macnix,milamber,0,but ifconfig reports them as being up...
+673,milamber,macnix,0,i trust nmap :/
+674,macnix,milamber,0,this is really pulling my leg right now
+675,macnix,milamber,0,me too
+676,macnix,milamber,0,so where is the disconnect?
+677,milamber,macnix,0,how many software engineers does it take to screw in a lightbulb?
+678,milamber,macnix,0,trick question - that's a hardware problem :)
+679,milamber,macnix,0,"not sure about that, but i am checking now."
+680,milamber,macnix,0,situation just brought that winner of a joke to mind.
+681,macnix,milamber,0,"hehe, good one :)"
+682,milamber,macnix,0,it could be a nic thing.
+683,milamber,macnix,0,"i might be wrong, but i don't think *all* network cards support multiple ips."
+684,macnix,milamber,0,it's a very decent NIC card... let me get the info
+685,macnix,milamber,0,NetXtreme BCM5723 Gigabit Ethernet PCIe
+686,macnix,milamber,0,HP ProLiant DL120  standard spec
+687,macnix,milamber,0,even the HDDs are HP FFS!
+688,macnix,milamber,0,!
+689,milamber,macnix,0,ok
+690,milamber,macnix,0,ssh server config?
+691,macnix,milamber,0,but then what about HTTP?
+692,macnix,milamber,0,It hangs just like SSH
+693,macnix,milamber,0,"sshd has the default config, it's not bound to a specific address"
+694,macnix,milamber,0,"by default, AFAIK, it listens on all network interfaces"
+695,milamber,macnix,0,can you ssh to either of the alias ips locally?
+696,macnix,milamber,0,no
+697,milamber,macnix,0,restart networking?
+698,macnix,milamber,0,output is: restart: Unknown instance:
+699,milamber,macnix,0,nc -zvw 1 <host_here> <port_here>
+700,macnix,milamber,0,all are successful
+701,macnix,milamber,0,but that's since the route add
+702,macnix,milamber,0,I ran that nc on the server
+703,macnix,milamber,0,running it locally it just hangs
+704,milamber,macnix,0,doing it remotely?
+705,macnix,milamber,0,hangs
+706,macnix,milamber,0,"oh, hang on"
+707,macnix,milamber,0,"only for eth0:0 it hangs, eth0:1 seems fine"
+708,macnix,milamber,0,let me try this a few times
+709,milamber,macnix,0,have you tried ssh to eth0:1?
+710,macnix,milamber,0,"yes, eth0:1 works"
+711,macnix,milamber,0,"rename eth0:0 to eth0:2, restarting networking"
+712,macnix,milamber,0,"nice, we're getting somewhere"
+713,macnix,milamber,0,"rationalOgre ok, so I'm pretty sure someone else is using my IP address"
+714,milamber,macnix,0,possible.
+715,macnix,milamber,0,"rationalOgre not sure how that's possible, but otherwise SIOCSIFFLAGS: Cannot assign requested address doesn't make sense"
+716,milamber,macnix,0,nmap -A <ipaddress>
+717,milamber,macnix,0,is 2 the one you did the route add command on?
+718,macnix,milamber,0,"I added them all, but when I restarted the networking, only the default route remained"
+719,macnix,milamber,0,"still, locally, I can ssh into any of the 3 IPs"
+720,macnix,milamber,0,"remotely, only into 1 & 3"
+721,milamber,macnix,0,remotely do: nmap -A <ipaddress>
+722,macnix,milamber,0,"I'm on OSX, need to install nmap first..."
+723,macnix,milamber,0,will be a few mins
+724,macnix,milamber,0,can run it from a different host though...
+725,macnix,milamber,0,"ok, got it"
+726,macnix,milamber,0,IP2 has been taken by someone else
+727,macnix,milamber,0,going to do a pastie
+728,milamber,macnix,0,this is the ip you were trying to get?
+729,milamber,macnix,0,http://lexi.lazu.co.uk/  ??
+730,milamber,macnix,0,http works on this one?
+731,milamber,macnix,0,but it is not you?
+732,macnix,milamber,0,"yes, that's the machine."
+733,macnix,milamber,0,It has 3 IPs pointing to it
+734,macnix,milamber,0,all with proper PTR
+735,milamber,macnix,0,"well, i just got to it using the ip you ran nmap with, so it seems to be working now."
+736,milamber,macnix,0,glad you got it resolved.
+737,macnix,milamber,0,the PTR is set in my ISPs control panel which checks it with the DNS servers.
+738,macnix,milamber,0,"But because someone else has assigned it before, even if my end is all good, their network is routing all the traffic to that server."
+739,macnix,milamber,0,so they need to give me another IP and apologise profoundly for setting me on a wild goose chase
+740,macnix,milamber,0,and doubting ubuntu!!!
+741,macnix,milamber,0,imagine the travesty!!!
+742,macnix,milamber,0,:D
+743,jdahm,,0,"I already have RAID set up from a previous installation, but it thinks /dev/md0 and /dev/md1 are entire devices, not just partitions"
+744,escott,jdahm,0,that seems normal
+745,jdahm,escott,0,hmm it seems like if I manually format the device with mkfs.ext4 /dev/md0 it lets me use it as a 'partition'
+746,escott,jdahm,0,yeah they are logical devices so that seems normal
+747,escott,jdahm,0,the installer may not be familiar with them
+748,jdahm,escott,0,what if I want it to just use the entire device without repartitioning it?
+749,jdahm,escott,0,I guess I'll just do it my manual way.
+750,jdahm,escott,0,Seems hacky however.
+751,jdahm,escott,0,In any case I have to wait for mdadm to sync these drives in /dev/md1
+752,escott,jdahm,0,"you could install in degraded mode and then fix it up after, but thats not the best approach"
+753,jdahm,escott,0,what is degraded mode?
+754,escott,jdahm,0,"ie disable mdadm, install to /dev/sda# and then rebuild afterwards"
+755,jdahm,escott,0,"oh, eww, nah I'll do it this way."
+756,jdahm,escott,0,Thanks for the tip anyway
+757,escott,jdahm,0,"see if you can mount md0 and md1, maybe once they are mounted the installer will play along"
+758,jdahm,escott,0,ok I will after I get lunch.
+759,jdahm,escott,0,/dev/md1 is going to take about another hour to sync ;)
+760,jdahm,escott,0,maybe I'll submit a big report about it
+761,escott,jdahm,0,you might also try getting the mdadm.conf setup in your install environment see if that helps
+762,jdahm,escott,0,I know.
+763,jdahm,escott,0,I'm goign to need to chroot when I'm done installing and make sure everything is go inside the install
+764,jdahm,escott,0,it's not goign to be nice
+765,jdahm,escott,0,ok back
+766,jdahm,escott,0,so I used raid to install and I'm all done.
+767,jdahm,escott,0,I installed mdadm in the chroot.
+768,jdahm,escott,0,Do I need to copy over the mdadm.conf file?
+769,escott,jdahm,0,"you will need to have a valid mdadm.conf on the system, you could copy it or rebuild it post install, copying may be easier"
+770,jdahm,escott,0,looks like it already created one for me
+771,jdahm,escott,0,ok rebooting.
+772,jdahm,escott,0,Wish me luck!
+773,jdahm,escott,0,ok I get a grub error 16
+774,escott,jdahm,0,"grub should be configured to point at sda1 not md1, and should boot degraded then once the kernel is up and md modules loaded it should bring up sdb1"
+775,escott,jdahm,0,you were doing raid1 right?
+776,jdahm,escott,0,"it points to /dev/sda on which /dev/sda1 (/boot) is, which is not part of the raid array"
+777,jdahm,escott,0,I have boot on a separate partition
+778,escott,jdahm,0,thats the way i've always done it.
+779,escott,jdahm,0,should be fine
+780,jdahm,escott,0,ok so I'm mounting stuff here again and I'm going to look around
+781,jdahm,escott,0,hopefully with your help I can find whats wrong
+782,jdahm,escott,0,I'm using raid5 for both / and /home (different arrays)
+783,escott,jdahm,0,that should be fine as long as the md stuff is in the initrd
+784,jdahm,escott,0,yeah I'm confused to..
+785,jdahm,escott,0,It's all mounted now.
+786,jdahm,escott,0,Where is the first place to look?
+787,escott,jdahm,0,ever taken apart an initrd before?
+788,jdahm,escott,0,"no, maybe I need to rebuild one..."
+789,jdahm,escott,0,"I come from archlinux, but I haven't ever dealt with initrds,  tried to always build my own kernels without them"
+790,escott,jdahm,0,if you want you could do that.
+791,escott,jdahm,0,copy the initrd off and gunzip it.
+792,escott,jdahm,0,then mount it loopback as ext2
+793,escott,jdahm,0,you will see a base prelim filesystem in it.
+794,escott,jdahm,0,it needs your mdadm.conf and the mdadm kernel modules
+795,jdahm,escott,0,it should have at least shown the grub screen and the boot options if it sensed /dev/sda1 the boot partiiton
+796,jdahm,escott,0,I think ti's something more fundamental than that
+797,escott,jdahm,0,you think grub-install didn't work?
+798,jdahm,escott,0,"well it HAS grub, and /dev/sda1 is definitely bootable..."
+799,jdahm,escott,0,I'm still thinkin what it could be
+800,escott,jdahm,0,try rerunning grub-install from a chroot environment
+801,escott,jdahm,0,you will need to bind mount /dev to your chroot
+802,jdahm,escott,0,"yeah, and sys and proc and so forth"
+803,jdahm,escott,0,I'm used to doing this ;)
+804,escott,jdahm,0,had the feeling you had done this before
+805,jdahm,escott,0,you know what I think it might be.
+806,jdahm,escott,0,I didn't have /dev/sda1 mounted to /mydrive/boot when I chrooted and installed mdadm
+807,jdahm,escott,0,I'll redo grub anyway as well
+808,escott,jdahm,0,ok don't know if you saw this: https://help.ubuntu.com/10.04/serverguide/C/advanced-installation.html
+809,jdahm,escott,0,"ok I rebuilt the initrd, reinstalled mdadm, and reinstalled grub with the line: set root='(/dev/sda,msdos1)'"
+810,jdahm,escott,0,anything else you can think of?
+811,escott,jdahm,0,shouldn't that be sda3 or 5 or something
+812,escott,jdahm,0,i lied thats right
+813,jdahm,escott,0,"no, as long as /dev/sda1 is bootable, you should ALWAYS install grub to the root of the drive, (at least thats what I've always beentold)"
+814,jdahm,escott,0,just doubled checked and /dev/sda1 is bootable
+815,jdahm,escott,0,I'm going to triple check the UUIDs in /etc/fstab as well
+816,jdahm,escott,0,ok those look correct as well
+817,jdahm,escott,0,ok rebooting
+818,jdahm,escott,0,ok still the same error
+819,jdahm,escott,0,now I'm sure that it's with grub
+820,escott,jdahm,0,unfortunately there are like NO DOCS for grub2 so i dont know what error 16 is
+821,jdahm,escott,0,it almost looks like grub1 is loading
+822,jdahm,escott,0,not grub2
+823,escott,jdahm,0,really how can you tell?
+824,jdahm,escott,0,thats what makes me kinda confused
+825,jdahm,escott,0,it has a larger font and no background behind grub
+826,jdahm,escott,0,at least when I upgraded to grub2 on my arch box I saw that change
+827,escott,jdahm,0,"does it show menu and do the stage 1.0 1.5 nonsense, cause they got right of that with grub2"
+828,escott,jdahm,0,"the font size can vary in grub2 depending upon config, but you are actually getting to a menu?"
+829,jdahm,escott,0,"it doesn't show anything, just says grub and then error 16'"
+830,escott,jdahm,0,do you think you might have a grub1 install on sdb's mbr?
+831,jdahm,escott,0,can I clear out the MBR of other drives?
+832,jdahm,escott,0,do you know the command for that?
+833,escott,jdahm,0,sure do grub-install on all the mbrs
+834,jdahm,escott,0,so heres something.
+835,jdahm,escott,0,When I do 'apt-get install grub2' it wants to remove some grub packages and install 'grub2'
+836,jdahm,escott,0,are you sure it by default has grub2?
+837,jdahm,escott,0,?
+838,escott,jdahm,0,the old grub is now called grub-pc or grub-legacy
+839,jdahm,escott,0,ok I have grub-install (GRUB) 1.99~rc1-13ubuntu3
+840,escott,jdahm,0,ie grub2
+841,jdahm,escott,0,yep.
+842,jdahm,escott,0,Ok back to debugging this.
+843,jdahm,escott,0,everything is mounted and I'm chroot'd
+844,jdahm,escott,0,"wait the CURRENT grub seems to be grub-pc, right?"
+845,escott,jdahm,0,no grub 1 is grub-pc
+846,jdahm,escott,0,what is grub2 then?
+847,jdahm,escott,0,I want to reinstall it
+848,escott,jdahm,0,sorry im wrong
+849,escott,jdahm,0,grub-pc is grub2 and the old grub1 is grub
+850,jdahm,escott,0,ok trying again...
+851,jdahm,escott,0,it works!
+852,jdahm,escott,0,thanks for all your help!
+853,escott,jdahm,0,excellent
+854,escott,jdahm,0,so it was a stray mbr?
+855,jdahm,escott,0,also: I very much like the new interface.
+856,jdahm,escott,0,I don't know why people are complaining
+857,jdahm,escott,0,I think so
+858,jdahm,escott,0,you were on the ball with your suggestion
+859,escott,jdahm,0,well now you have plenty of backup mbrs if sda goes out
+860,jdahm,escott,0,for fun: http://pastie.org/1845281
+861,escott,jdahm,0,thats a lot of ram
+862,jdahm,escott,0,I like it :)  It's for computational physics simulations
+863,daGrevis,,1,"Hello, guys."
+864,daGrevis,,0,Maybe you can take a look at http://askubuntu.com/questions/53327/screen-is-going-crazy-after-connecting-to-wi-fi-network and help me?
+865,daGrevis,,1,Please.
+866,daGrevis,,0,I can stand Windoze!
+867,daGrevis,,0,*cant
+868,daGrevis,,0,"damn, ´ this doesnt work"
+869,daGrevis,,0,"ironic, huh?"
+870,daGrevis,,0,"it recognize my device, but when  try to connect... it just doesnt do anything."
+871,daGrevis,,0,just tried and thats all.
+872,daGrevis,,0,fater few minutes it asks psw again/
+873,daGrevis,,0,any1 else?
+874,edbian,daGrevis,0,Are you logging into unity or ubuntu classic or ubuntu classic no-effects
+875,daGrevis,edbian,0,xubuntu - xfce.
+876,edbian,daGrevis,0,Do you have desktop effects running?
+877,daGrevis,edbian,0,what do u mean with that?
+878,daGrevis,edbian,0,There arent such mega effects in xfce.
+879,daGrevis,edbian,0,just simple desktop.
+880,daGrevis,edbian,0,"and it works, ye."
+881,edbian,daGrevis,0,What wifi card do you have?
+882,edbian,daGrevis,0,What driver are you using?
+883,edbian,daGrevis,0,What video card do you have.
+884,edbian,daGrevis,0,what driver are you using for that?
+885,daGrevis,edbian,0,i have linksys wusb60n stick.
+886,daGrevis,edbian,0,i did all like in this tut - http://www.linuxquestions.org/questions/linux-wireless-networking-41/linksys-wusb600n-driver-and-dlink-dwl-ag132-driver-622449/ .
+887,daGrevis,edbian,0,"i dont know what v0car i have, but its on-board."
+888,daGrevis,edbian,0,and no drivers for it.
+889,daGrevis,edbian,0,just native for linux.
+890,edbian,daGrevis,0,reading...
+891,edbian,daGrevis,0,What driver are you using right now then?
+892,edbian,daGrevis,0,does lspci show the device?
+893,edbian,daGrevis,0,?
+894,daGrevis,edbian,0,can u tell me how to now what driver am i using?
+895,daGrevis,edbian,0,im new to linux.
+896,daGrevis,edbian,0,what info do u need and how can I get it?
+897,edbian,daGrevis,0,"sure, sudo lspci -k    Does that output show the device?"
+898,edbian,daGrevis,0,(if yes it will list the driver)  It is long.
+899,edbian,daGrevis,0,You can use paste.ubuntu.com for me to read it if you like.
+900,daGrevis,edbian,0,ty.
+901,daGrevis,edbian,0,gonna paste link to output after few mins.
+902,edbian,daGrevis,0,ok
+903,edbian,daGrevis,0,I am quite sure it won't show up there because it's a USB device.
+904,edbian,daGrevis,0,But I wanted you to look to be sure
+905,daGrevis,edbian,0,http://paste.ubuntu.com/645410/
+906,edbian,daGrevis,0,(it is not there) Does the device show up in lsusb  ?
+907,edbian,daGrevis,0,(this one is shorter)
+908,daGrevis,edbian,0,"ye, i do shows up in lsusb."
+909,edbian,daGrevis,0,what is the output of sudo lsmod | grep rt28    ?
+910,daGrevis,edbian,0,give a a sec.
+911,edbian,daGrevis,0,sure
+912,daGrevis,edbian,0,it gives me nothing.
+913,daGrevis,edbian,0,;(
+914,edbian,daGrevis,0,I was afraid of that.
+915,edbian,daGrevis,0,Hang on
+916,edbian,daGrevis,0,Can you sudo modprobe rt2800usb
+917,daGrevis,edbian,0,sure
+918,edbian,daGrevis,0,then do sudo lsmod | grep rt28  and see if it returns something (it should now)
+919,daGrevis,edbian,0,k. but 2800 wasnt for v1?
+920,daGrevis,edbian,0,i have v2 and the numbers are different.
+921,edbian,daGrevis,0,This website is the most up to date most reliable source:  http://linuxwireless.org/en/users/Devices/USB
+922,edbian,daGrevis,0,It lists rt2800usb for all versions (it's for down on the list)
+923,daGrevis,edbian,0,http://paste.ubuntu.com/645417/
+924,edbian,daGrevis,0,can you get on a wifi network?
+925,daGrevis,edbian,0,u mean.. connect?
+926,daGrevis,edbian,0,before i saw that there r no firmware for it.
+927,daGrevis,edbian,0,"then i compile drivers, add something to blacklist and other stuff (not sure) - as said in that tut."
+928,daGrevis,edbian,0,and then it didnt show that there are no firmware.
+929,daGrevis,edbian,0,i can see all networks and when i try to connect my network... it asks for psw.
+930,daGrevis,edbian,0,i enter it... it tries to connect and after few minutes it ask for psw again.
+931,edbian,daGrevis,0,That is the state of things right now?
+932,edbian,daGrevis,0,You're confusing me a bit.
+933,daGrevis,edbian,0,ask me if you arent clear about something.
+934,daGrevis,edbian,0,i will try to explain.
+935,edbian,daGrevis,0,Are you getting errors about missing firmware right now?
+936,daGrevis,edbian,0,no.
+937,daGrevis,edbian,0,all seems to be working.
+938,daGrevis,edbian,0,just i cant connect to my network.
+939,edbian,daGrevis,0,alright hang on a second...
+940,daGrevis,edbian,0,sure.
+941,edbian,daGrevis,0,What is your card listed as in lsusb ?
+942,daGrevis,edbian,0,http://paste.ubuntu.com/645419/ .
+943,daGrevis,edbian,0,wusn60n
+944,edbian,daGrevis,0,run dmesg and look at the last 20 or so lines.
+945,edbian,daGrevis,0,Does it say anything about missing firmware ?
+946,edbian,daGrevis,0,I'm not really sure why that driver isn't working.
+947,edbian,daGrevis,0,The site I linked does not list any documenation so I'm guessing the driver is incomplete.
+948,edbian,daGrevis,0,Have a look at rt2x00 it's some graphical tool for the driver we modprobed.
+949,edbian,daGrevis,0,If you restart the machine it will be back to how it was before I ran any commands.
+950,edbian,daGrevis,0,All we did was insert the rt2800 module and look around a bit.
+951,daGrevis,edbian,0,gere r full output I got from dmesg.
+952,daGrevis,edbian,0,it seems that there arent a lot of drivers... ;( i really appreciate ur help... http://paste.ubuntu.com/645425/
+953,edbian,daGrevis,0,"whoa, those are all your radion driver freaking out."
+954,edbian,daGrevis,0,It's incomplete so not very useful
+955,daGrevis,edbian,0,im glad that it isnt my linksys.. =D
+956,daGrevis,edbian,0,its all that i got from that cmd.
+957,daGrevis,edbian,0,or no?
+958,edbian,daGrevis,0,"Ahh, it's probably left over from last time it happened."
+959,edbian,daGrevis,0,How did you get your graphics back after it freaked out?
+960,daGrevis,edbian,0,last time?
+961,daGrevis,edbian,0,i installed linux today.
+962,edbian,daGrevis,0,Last time that the grahpics freaked
+963,daGrevis,edbian,0,hmm.
+964,daGrevis,edbian,0,i just unplugged computer from electricity.
+965,daGrevis,edbian,0,and thats all.
+966,daGrevis,edbian,0,all seems to worked.
+967,edbian,daGrevis,0,what?
+968,daGrevis,edbian,0,my computers screen wnt like in these images... http://askubuntu.com/questions/53327/screen-is-going-crazy-after-connecting-to-wi-fi-network and then i just plugged out my computer from electricity.
+969,edbian,daGrevis,0,So it worked fine on battery power?
+970,daGrevis,edbian,0,what battery power?
+971,daGrevis,edbian,0,its desktop.
+972,daGrevis,edbian,0,not laptop.
+973,daGrevis,edbian,0,i plugged out it and it shutted down.
+974,daGrevis,edbian,0,no electicity - its off.
+975,daGrevis,edbian,0,then i plugged electricity again and all worked.
+976,edbian,daGrevis,0,I'm not sure what the problem is then :(
+977,daGrevis,edbian,0,maybe its ebecause of 64 bits I have?
+978,daGrevis,edbian,0,in that topic... they say that it works only wth 32 bits.
+979,daGrevis,edbian,0,What do u think?
+980,edbian,daGrevis,0,That sounds extremely likely to me
+981,daGrevis,edbian,0,"i dont like out-dated architetures, but I wiould better use 32 bits linux then 64 bits windoze."
+982,daGrevis,edbian,0,;(
+983,edbian,daGrevis,0,32 bits isn't outdated yet!
+984,edbian,daGrevis,0,:D
+985,daGrevis,edbian,0,eh.. gonna try 32 bits.
+986,edbian,daGrevis,0,good luck friend!
+987,daGrevis,edbian,1,thanks.
+988,daGrevis,edbian,0,if u need web page... contact me.
+989,daGrevis,edbian,0,im pro at that.
+990,daGrevis,edbian,0,;)
+991,edbian,daGrevis,0,"Ha, I make websites too actually :)  Probably not as good as you though"
+992,daGrevis,edbian,0,its my official job.
+993,daGrevis,edbian,0,"=P php, sql, html, css, js... kohana and jquery <3."
+994,daGrevis,edbian,0,u name it ;)
+995,edbian,daGrevis,1,awesome
+996,daGrevis,edbian,0,just in linux i suck.
+997,daGrevis,edbian,0,kinda =D
+998,edbian,daGrevis,0,You'll learn.
+999,daGrevis,edbian,0,if i will set up my computer.
+1000,daGrevis,edbian,0,somehow.
+1001,daGrevis,edbian,0,=D
+1002,edbian,daGrevis,0,Yes very likely.
+1003,edbian,daGrevis,0,What are you trying to get working?
+1004,daGrevis,edbian,1,hi.
+1005,daGrevis,edbian,0,remember me?
+1006,daGrevis,edbian,0,=D
+1007,daGrevis,edbian,0,you helped me yesterday with xubuntu.
+1008,edbian,daGrevis,0,I do remember
+1009,daGrevis,edbian,0,i get it working with 32 bits xubuntu.
+1010,daGrevis,edbian,0,my wireless.
+1011,edbian,daGrevis,0,I don't remember the problem though.
+1012,edbian,daGrevis,0,OH yeah?
+1013,edbian,daGrevis,0,It works now?
+1014,edbian,daGrevis,0,Yay!
+1015,daGrevis,edbian,0,the bad news: i dont like xubuntu.
+1016,daGrevis,edbian,0,"im migrating to ubuntu 10.04.2 lts, 64 bits."
+1017,daGrevis,edbian,0,i guess module dont like that 64 bits.
+1018,daGrevis,edbian,0,dammit
+1019,edbian,daGrevis,0,I would stick with 32 bits in general for a while :)
+1020,edbian,daGrevis,0,At least it's clear what to do.
+1021,daGrevis,edbian,0,I will try last thing that could work.
+1022,daGrevis,edbian,0,"if it fails, i reinstall to 32 bits."
+1023,edbian,daGrevis,0,"Yes, that should work."
+1024,daGrevis,edbian,0,can u stay here for a whi;e?
+1025,daGrevis,edbian,0,I could need ur help.
+1026,daGrevis,edbian,0,^_^
+1027,edbian,daGrevis,0,I'm here.
+1028,daGrevis,edbian,0,it failed.
+1029,edbian,daGrevis,0,What did?
+1030,daGrevis,edbian,0,to install that driver for 64bits.
+1031,daGrevis,edbian,0,now i gonna install 32 bits os.
+1032,edbian,daGrevis,0,yeah do that
+1033,daGrevis,edbian,0,why do they recomend 32 bits?
+1034,edbian,daGrevis,0,"They wrote the driver, ask them."
+1035,daGrevis,edbian,0,"no, i thought: wht do Ubuntu recomends 32 bits over 64 bits?"
+1036,edbian,daGrevis,0,Because 64 bits is not mature yet and problems like yours arise still.
+1037,daGrevis,edbian,0,im back.
+1038,daGrevis,edbian,0,It failed on 32 bits too.
+1039,daGrevis,edbian,0,my man.
+1040,daGrevis,edbian,0,Im the guy who had problems with wi-fi.
+1041,daGrevis,edbian,0,;) http://askubuntu.com/questions/54152/how-to-configure-my-graphics-card
+1042,roasted,,0,"Question - if I set up a box with 1hdd to root and a pair of 500gb Software Raid 1 drives as /home, would /home be on the 500gb drives for any user I create?"
+1043,ActionParsnip,roasted,0,yes
+1044,ActionParsnip,roasted,0,test access.
+1045,ActionParsnip,roasted,0,I like to screw mine does with access allowed and access denied lists
+1046,roasted,ActionParsnip,0,do you by chance use gadmin for your samba needs?
+1047,ActionParsnip,roasted,0,"no, i use smb.conf so I can configure it via ssh"
+1048,roasted,ActionParsnip,0,I see.
+1049,roasted,ActionParsnip,0,"HAve you ever used anything else, such as a web based frontend for it?"
+1050,roasted,ActionParsnip,0,Or always ssh/smb.conf?
+1051,ActionParsnip,roasted,0,"I suggest you add: root bin daemon nobody    to the denied list, for security"
+1052,ActionParsnip,roasted,0,"no, never had to, the file is insanely simple"
+1053,roasted,ActionParsnip,0,I agree.
+1054,roasted,ActionParsnip,0,I'm just trying to figure out a way to remotely handle the system.
+1055,roasted,ActionParsnip,0,"I didn't think about ssh, as I could forward that outside the router for external access."
+1056,ActionParsnip,roasted,0,plus its secure :)
+1057,roasted,ActionParsnip,0,the one thing I like about gadmin is any changes I make I can see the config file in another tab.
+1058,roasted,ActionParsnip,0,It's not a bad way to learn the ins and outs of the real smb.conf
+1059,ActionParsnip,roasted,0,"add   http://paste.ubuntu.com/612299/   to the file, restart smbd  and you have a share"
+1060,roasted,ActionParsnip,0,its funny how much info is in the smb.conf.
+1061,roasted,ActionParsnip,0,IT looks huge and confusing when nearly 90% of it is just tips and advice.
+1062,ActionParsnip,roasted,0,yeah a few files are like that
+1063,ActionParsnip,roasted,0,I can recommend deadbeef :)
+1064,roasted,ActionParsnip,0,"deadbeef... as in, a media management application??"
+1065,roasted,ActionParsnip,0,?
+1066,ActionParsnip,roasted,0,yeah its nice
+1067,roasted,ActionParsnip,0,it seems very simple.
+1068,roasted,ActionParsnip,0,does it do playlist syncing to ipods and such?
+1069,ActionParsnip,roasted,0,"no idea, i don't use apples garbage."
+1070,ActionParsnip,roasted,0,my sense outstrips my wallet
+1071,roasted,ActionParsnip,0,you and me both.
+1072,roasted,ActionParsnip,0,I'm just trying to get acquianted with more media players since I have a few friends who might switch to linux IF they can find something to suit their ipod needs :P
+1073,roasted,ActionParsnip,0,just trying to get more well educated on which apps I can recommend them.
+1074,ActionParsnip,roasted,0,"i'd either check its feature list, or just install it and test :)"
+1075,roasted,ActionParsnip,0,I uninstalled network manager and set it as static in the network interface file.
+1076,roasted,ActionParsnip,0,"I thought it was weird that my network connection wasnt working, then I realized it was 17.11 when the IP should be static @ 17.2"
+1077,roasted,ActionParsnip,0,with the dhcp range being 17.10 to 17.254
+1078,roasted,ActionParsnip,0,"I just restarted the net interfaces and now its 17.2, but it legitimently puled a DHCP address when it was set to static, which shocked me."
+1079,ActionParsnip,roasted,0,"if you uninstall alacarte, does the package manager want to gut the OS?"
+1080,ActionParsnip,roasted,0,was it gracefully removed last time it was removed
+1081,ActionParsnip,roasted,0,you may be able to resize the mac filesystem
+1082,roasted,ActionParsnip,0,can gparted do that or do I need a mac utility?
+1083,ActionParsnip,roasted,0,"not sure, I don't buy mac rubbish"
+1084,roasted,ActionParsnip,0,nor do I.
+1085,roasted,ActionParsnip,0,It's a work laptop and I want to liberate it.
+1086,roasted,ActionParsnip,0,:P
+1087,roasted,ActionParsnip,0,"besides, we're moving to ubuntu, but we're not there full bore just yet."
+1088,roasted,ActionParsnip,0,takes time!
+1089,ActionParsnip,roasted,0,nice but be civil pleas
+1090,ActionParsnip,roasted,0,use /ignore dude ;)
+1091,Scottie1,,0,Help please?
+1092,Scottie1,,0,"I've burned Ubuntu desktop to about seven different CDs, and none of them will install."
+1093,Scottie1,,0,"I've downloaded from two different PCs, from three separate downloads."
+1094,Scottie1,,0,I'm trying to install on a Toshiba Satellite L355D-S7825
+1095,Dr_Willis,Scottie1,0, make a bootable flash drive from the iso files perhaps?
+1096,Dr_Willis,Scottie1,0, do the cd's work on other machines?
+1097,Scottie1,Dr_Willis,0,"I tried, once with an external hd, and again with a regular flash, and the first time it straight up told me I couldn't boot from an hd, and when I tried to boot from my stick, it said I had nothing bootable inserted."
+1098,Dr_Willis,Scottie1,0, how did you make the bootable flash drive?
+1099,Scottie1,Dr_Willis,0,"I don't have the opportunity to find out, because I can't erase the other machines...they aren't mine"
+1100,Scottie1,Dr_Willis,0,"I followed the instructions on the website, and even told it to make it a bootable startup whatever"
+1101,Dr_Willis,Scottie1,0, you could install to your extranal flash drive/usb as a test also.. but do  check the md5's first
+1102,Dr_Willis,Scottie1,0, also the PenDrivelinux web site has some alteantive tools for making a bootable flash drive.
+1103,Dr_Willis,Scottie1,0, an addational test is to try virtualbox and see if it can install from the iso to a virutal machine.
+1104,Scottie1,Dr_Willis,0,I'm very grateful.
+1105,Dr_Willis,Scottie1,0, you do a full/normal isntall via parittions...
+1106,Scottie1,Dr_Willis,0,I don't know what that means.
+1107,Dr_Willis,Scottie1,0, you may want to read up on some pc/disk fundamentals then.
+1108,Dr_Willis,Scottie1,0,You normally reparittion your hard drive and isntall ubuntu to one of the partitions.
+1109,Dr_Willis,Scottie1,0,Unless you are using the WUBI method to install INSIDE windwos.
+1110,Scottie1,Dr_Willis,0,but I want FULL Ubuntu...I don't want other partitions
+1111,Dr_Willis,Scottie1,0, you are backwards.. a FULL install DOES use partitions..
+1112,Dr_Willis,Scottie1,0, is this machine to be Ubuntu Only?
+1113,Dr_Willis,Scottie1,0,or windows on it also?
+1114,Scottie1,Dr_Willis,0,Then I just purely don't understand.
+1115,Dr_Willis,Scottie1,0, yep.
+1116,Dr_Willis,Scottie1,0,You dont understand..  but we are here to help
+1117,Scottie1,Dr_Willis,0,"My machine wouldn't let me log on, so I Ubuntu'd over it, and erased my windows."
+1118,Scottie1,Dr_Willis,0,Now it has nothing on it.
+1119,Dr_Willis,Scottie1,0, so basically you start the isntaller and tell it to use the 'whole' disk ?
+1120,Scottie1,Dr_Willis,0,It asks what I want.
+1121,Scottie1,Dr_Willis,0,I tell it to erase and use the whole disk.
+1122,Dr_Willis,Scottie1,0, and that automatically PARTIONS the hard disk for you.
+1123,Dr_Willis,Scottie1,0, since you dont want windows.
+1124,Dr_Willis,Scottie1,0,that makes things simpiler.
+1125,Scottie1,Dr_Willis,0,Okay...sorry I made that so difficult.
+1126,Scottie1,Dr_Willis,0,"And no, I don't want Windows."
+1127,Scottie1,Dr_Willis,0,I just want my Ubuntu to work.
+1128,Scottie1,Dr_Willis,0,I've used like 7 disks already.
+1129,Dr_Willis,Scottie1,0, where is your .iso files you used at now?
+1130,Dr_Willis,Scottie1,0,this PC?
+1131,Dr_Willis,Scottie1,0,eternal hd?
+1132,Dr_Willis,Scottie1,0,another pc?
+1133,Scottie1,Dr_Willis,0,"One on my mom's, one on my friends."
+1134,Scottie1,Dr_Willis,0,"None on this one because every time I use it, I have to use Ubuntu trial, so nothing saves."
+1135,Dr_Willis,Scottie1,0," If you have an exteranal usb hard drive, or even a pen/flash drive."
+1136,Dr_Willis,Scottie1,0,You can tell the installer to install to that exteranal device.
+1137,Dr_Willis,Scottie1,0, you may want to go to one or more of the other machines and download a MD5 sum tool to check the iso files.
+1138,Scottie1,Dr_Willis,0,"When I tried to tell the ISO to use the hard drive as a boot option, it wouldn't let me."
+1139,Scottie1,Dr_Willis,0,It said that I would not be able to boot from it.
+1140,Dr_Willis,Scottie1,0, Hard drives are the weakest part of a PC these days.
+1141,Dr_Willis,Scottie1,0,they can die and get errors at any time.
+1142,Scottie1,Dr_Willis,0,Well buying one really isn't an option
+1143,Dr_Willis,Scottie1,0, check the md5 of the iso files on the other machines.
+1144,Dr_Willis,Scottie1,0,try the Pendrivelinux web site.
+1145,Dr_Willis,Scottie1,0,their 'pendrive generator' tool can also verify the ISO i think.
+1146,Dr_Willis,Scottie1,0, you can even isntall to a 8gb flash drive if yu have one.
+1147,Dr_Willis,Scottie1,0,:) as a test.
+1148,Scottie1,Dr_Willis,0,I have one.
+1149,Scottie1,Dr_Willis,0,I tried.
+1150,Scottie1,Dr_Willis,0,My computer refused to boot from it.
+1151,Dr_Willis,Scottie1,0, its possible your hard drive has a bad spot near the middle.
+1152,Dr_Willis,Scottie1,0, http://en.wikipedia.org/wiki/Disk_partitioning
+1153,Scottie1,Dr_Willis,0,Could you just tell me straight up what to do?
+1154,Scottie1,Dr_Willis,0,Because stuff like this is meaningless to me.
+1155,Dr_Willis,Scottie1,0, as a dirty work around.
+1156,Dr_Willis,Scottie1,0,"they are suggesting you use the 'custome' partioning feature of the installer and make a single parittion at the front of the hard drive of about 20gb or so,"
+1157,Dr_Willis,Scottie1,0, not really.
+1158,Dr_Willis,Scottie1,0,you need to know the basic terms befor  anything we say makes sence..
+1159,Scottie1,Dr_Willis,0,"But, like, I don't know what the sectors mean"
+1160,Dr_Willis,Scottie1,0," in short you can try custome partioning layout, and make a 20 gb partiion at the start for '/' and  a 512mb for 'swap' then see if itnstalls."
+1161,Scottie1,Dr_Willis,0,I understand most of what you're saying.
+1162,Scottie1,Dr_Willis,0,It is just meaningless to me because I don't know how to apply it.
+1163,Dr_Willis,Scottie1,0, but really You SHOULD be checking the cd's for errors also.
+1164,Scottie1,Dr_Willis,0,I didn't know.
+1165,Scottie1,Dr_Willis,0,I don't know how to do any of this.
+1166,Scottie1,Dr_Willis,0,I was just trying to save my stupid computer.
+1167,Dr_Willis,Scottie1,0, i guess you learn then.
+1168,Dr_Willis,Scottie1,0, theres proberly videos on youtube of them doing Ubuntu installs also.
+1169,Dr_Willis,Scottie1,0, its not to hard to parittion the hard drive with the installer.
+1170,Scottie1,Dr_Willis,0,I'm pulling up the installer right now.
+1171,Dr_Willis,Scottie1,0, because the HD has some bad sectors.. that thing could die at any time..  i would be saving up some $$.
+1172,Scottie1,Dr_Willis,0,"Which option am I supposed to choose, regarding the install"
+1173,Dr_Willis,Scottie1,0, custome layout
+1174,Dr_Willis,Scottie1,0, i dont have the isntaller memoruised.. so you will need to think about what you are doing.
+1175,Dr_Willis,Scottie1,0," you basically want to make 2 partitions  first one , ext4, mount point of"
+1176,Dr_Willis,Scottie1,0," you basically want to make 2 partitions  first one , ext4, mount point of  '/'    perhaps 20gb in size."
+1177,Dr_Willis,Scottie1,0, then make a second one.
+1178,Dr_Willis,Scottie1,0,perhaps 1 gb in size.
+1179,Dr_Willis,Scottie1,0,type is 'swap'
+1180,Scottie1,Dr_Willis,0,There's already two there.
+1181,Scottie1,Dr_Willis,0,sda1 and sda5
+1182,Scottie1,Dr_Willis,0,1 is an ext4 and 5 is a swap
+1183,Dr_Willis,Scottie1,0, so delete them.
+1184,Dr_Willis,Scottie1,0,thats what the auto partioning tool setup.
+1185,Dr_Willis,Scottie1,0," you want basically the same thing, only smaller..."
+1186,Scottie1,Dr_Willis,0,"Okay, now it just says 'free space'"
+1187,Dr_Willis,Scottie1,0," so make a new primary partition, type ext4."
+1188,Dr_Willis,Scottie1,0,mount point /
+1189,Dr_Willis,Scottie1,0, make it.. 20gb.
+1190,Scottie1,Dr_Willis,0,I click 'new partition table' and nothing happens
+1191,Dr_Willis,Scottie1,0, not a new table.. a new partitiion
+1192,Scottie1,Dr_Willis,0,I only have the option to make a new table
+1193,Scottie1,Dr_Willis,0,Scratch that.
+1194,Scottie1,Dr_Willis,0,I had the wrong thing highlighted.
+1195,Dr_Willis,Scottie1,0, I said you have to think.
+1196,Dr_Willis,Scottie1,0,:) heh
+1197,Dr_Willis,Scottie1,0," so a parimary parittion of about 20gb, ext4, mount point /"
+1198,Scottie1,Dr_Willis,0,Done.
+1199,Scottie1,Dr_Willis,0,"Wait, wait."
+1200,Scottie1,Dr_Willis,0,Beg or end?
+1201,Dr_Willis,Scottie1,0, the thing should allready 'format' the ext4 if needed.. you have also made the swap parittion yet?
+1202,Dr_Willis,Scottie1,0,how much ram do you have?
+1203,Dr_Willis,Scottie1,0, may as well use the beginning.
+1204,Dr_Willis,Scottie1,0,:)
+1205,Scottie1,Dr_Willis,0,"3g ram, 250g hd"
+1206,Scottie1,Dr_Willis,0,All I've made is the first.
+1207,Scottie1,Dr_Willis,0,"Can you repeat the other, please?"
+1208,Dr_Willis,Scottie1,0, so a 1gb swap is proberly plenty.
+1209,Dr_Willis,Scottie1,0,You could make 3gb if you wanted.
+1210,Dr_Willis,Scottie1,0, afer making the /.
+1211,Dr_Willis,Scottie1,0,make a swap partition perhaps 2gb in size.
+1212,Dr_Willis,Scottie1,0,its not super critical.
+1213,Scottie1,Dr_Willis,0,"On the one I just made, or in the free space?"
+1214,Dr_Willis,Scottie1,0, its a different partiion.. so its in the free space of course..
+1215,Dr_Willis,Scottie1,0, You are making different 'partitions' :) logical eh?
+1216,Scottie1,Dr_Willis,0,"I assumed, but I wanted to be sure."
+1217,Scottie1,Dr_Willis,0,Logical?
+1218,Scottie1,Dr_Willis,0,Beg or end?
+1219,Scottie1,Dr_Willis,0,Mount point?
+1220,Dr_Willis,Scottie1,0," may as well make it primary,."
+1221,Dr_Willis,Scottie1,0,and again.. the beginning
+1222,Scottie1,Dr_Willis,0,Primary or logical
+1223,Dr_Willis,Scottie1,0, you can have 4 primary parittions total.
+1224,Dr_Willis,Scottie1,0,You are going to perhaps use 3 for this setup.
+1225,Scottie1,Dr_Willis,0,"Alright, done."
+1226,Dr_Willis,Scottie1,0, Now .
+1227,Dr_Willis,Scottie1,0,for the rest of the hard drive.
+1228,Dr_Willis,Scottie1,0,You can make a 3rd partition.
+1229,Dr_Willis,Scottie1,0,set it to ext4.
+1230,Dr_Willis,Scottie1,0,"and the rest of the hard drive size, and set its mount point to be /home"
+1231,Dr_Willis,Scottie1,0, this way you wil have 200+GB in space for your user to use.
+1232,Scottie1,Dr_Willis,0,"Okay, done."
+1233,Dr_Willis,Scottie1,0, However if the HD is going bad.. hopefully the 'bad' sectors will be in that /home partition.
+1234,Scottie1,Dr_Willis,0,Alright...can I continue now?
+1235,Dr_Willis,Scottie1,0, now when you continue the installer it 'should' all install to the good part of the hard drive.
+1236,Scottie1,Dr_Willis,0,Alright.
+1237,Scottie1,Dr_Willis,0,I'll let it run and see how it goes.
+1238,Dr_Willis,Scottie1,0, at least now you now know how to do a custome partitiion
+1239,Scottie1,Dr_Willis,0,I completely appreciate all of this.
+1240,Scottie1,Dr_Willis,0,"There is no one computer literate in this town, especially with Linux."
+1241,Dr_Willis,Scottie1,0, theres bound to be some videos out of doing all this.. but ive never looked :)
+1242,Scottie1,Dr_Willis,0,"Honestly, I prefer one on one where I can get MY questions answered."
+1243,Scottie1,Dr_Willis,0,"Which is why, as of now, you're a god to me."
+1244,Dr_Willis,Scottie1,0, and its past my bed time.. if this all fails.. well its possible the HD is on its last legs.. or the cd is badly burnt.
+1245,Dr_Willis,Scottie1,0,but at least you can play with the live cd.
+1246,Dr_Willis,Scottie1,0,and do things...
+1247,Scottie1,Dr_Willis,0,I can.
+1248,Scottie1,Dr_Willis,0,I really appreciate it.
+1249,Scottie1,Dr_Willis,0,Sleep well.
+1250,ikonia,,0,swapping libc out is not a good idea
+1251,AbhiJit,ikonia,0,total four files
+1252,ikonia,AbhiJit,0,"I know, but I think we get the message"
+1253,AbhiJit,ikonia,0,hmm
+1254,ikonia,AbhiJit,0,what is the issue ?
+1255,AbhiJit,ikonia,0,i just installed previous version of linux kernle i.e.
+1256,AbhiJit,ikonia,0,#23 and removedd the latest one i.e.
+1257,AbhiJit,ikonia,0,#24 but now i in update it dont show any update for kernels.
+1258,AbhiJit,ikonia,0,actionParsnip should i again just manualy install the latest kernal #25?
+1259,ikonia,AbhiJit,0,I'd check to make sure it's not still installed
+1260,AbhiJit,ikonia,0,yah i removed the latest kernel with ubuntu tweak
+1261,ikonia,AbhiJit,0,ahhh ubuntu tweak = your system is no longer supported
+1262,AbhiJit,ikonia,0,:)
+1263,ikonia,AbhiJit,0,why you felt the need to use ubuntu tweek when the supported package manager tools are there I don't know
+1264,AbhiJit,ikonia,0,i just read on some blog that tweak is easy gui to do day to day ubutnu things
+1265,ikonia,AbhiJit,0,you read wrong
+1266,ikonia,AbhiJit,0,can you use synaptic ?
+1267,AbhiJit,ikonia,0,yes i can
+1268,ikonia,AbhiJit,0,ok - so why did you need to use unsupported software to remove a software package
+1269,AbhiJit,ikonia,0,dunno.
+1270,AbhiJit,ikonia,0,i felt if fancy and good
+1271,ikonia,AbhiJit,0,"well, your system is now unsupportible"
+1272,AbhiJit,ikonia,0,so what you suggest now?
+1273,AbhiJit,ikonia,0,should i uninstall ubuntu tweak?
+1274,ikonia,AbhiJit,0,"too late, you don't know what it's changed, how and why, your system is now in an unsupportable state"
+1275,AbhiJit,ikonia,0,so reinstall is the only solution?
+1276,AbhiJit,ikonia,0,i mean reinstall os
+1277,ikonia,AbhiJit,0,up to you
+1278,AbhiJit,ikonia,0,i want my system to be supportable.
+1279,AbhiJit,ikonia,0,what to do?
+1280,ikonia,AbhiJit,0,up to you
+1281,AbhiJit,ikonia,0,:(
+1282,AbhiJit,ikonia,0,do you mean that using synaptic to remove kernel whould have not caused this problem?
+1283,AbhiJit,ikonia,0,so that i wll use synpatic in next time
+1284,AbhiJit,ikonia,0,i am asking your suggestion
+1285,ikonia,AbhiJit,0,"no, it's fine as it is"
+1286,AbhiJit,ikonia,0,ok :)
+1287,AbhiJit,ikonia,0,i insatll hylafax.
+1288,AbhiJit,ikonia,0,but where it goes?
+1289,AbhiJit,ikonia,0,cant find it
+1290,ikonia,AbhiJit,0,how did you install it ?
+1291,AbhiJit,ikonia,0,sudo apt-get insatll hylafax-client
+1292,ikonia,AbhiJit,0,so it should be somewhere in /usr/bin I believe
+1293,AbhiJit,ikonia,0,ok
+1294,ikonia,AbhiJit,0,why are you showing me that ?
+1295,AbhiJit,ikonia,0,because it is not runnig.
+1296,AbhiJit,ikonia,0,when i type hylafax in termianl it says command not found
+1297,ikonia,AbhiJit,0,"it's not that simple,"
+1298,AbhiJit,ikonia,0,yah
+1299,ikonia,AbhiJit,0,check the link
+1300,AbhiJit,ikonia,0,i followed that
+1301,AbhiJit,ikonia,0,and still it is not working
+1302,ikonia,AbhiJit,0,did all the steps in the install process work
+1303,AbhiJit,ikonia,0,im using lts.
+1304,AbhiJit,ikonia,0,so i double click on font.
+1305,AbhiJit,ikonia,0,and it told me that it got installed.
+1306,AbhiJit,ikonia,0,and still it is not working
+1307,ikonia,AbhiJit,0,how did you check ?
+1308,AbhiJit,ikonia,0,on the same window it first display 'install font' button after clicking that button in the same place it shows grayed 'installed' button
+1309,ikonia,AbhiJit,0,run suco fc-cache -f -b
+1310,AbhiJit,ikonia,0,and thing is arora is displaying that website well but frefox is not
+1311,AbhiJit,ikonia,0,invalid option b
+1312,ikonia,AbhiJit,0,sory -v
+1313,ikonia,AbhiJit,0,typo
+1314,AbhiJit,ikonia,0,fc-cache succeded.
+1315,AbhiJit,ikonia,0,and still not working in firefox
+1316,ikonia,AbhiJit,0,"firefox should pickup fonts from the font server, have you restarted firefox"
+1317,AbhiJit,ikonia,0,yes restarted
+1318,AbhiJit,ikonia,0,chromium and arora did successfully picked up the font.
+1319,AbhiJit,ikonia,0,but firefox not :(
+1320,ikonia,AbhiJit,0,you are using firefox from the repos yes ?
+1321,AbhiJit,ikonia,0,yes
+1322,ikonia,AbhiJit,0,it should pickup from font server.
+1323,AbhiJit,ikonia,0,3.6.12
+1324,AbhiJit,ikonia,0,ok
+1325,ikonia,AbhiJit,0,"in synaptic, how many kernels are showing as installed"
+1326,AbhiJit,ikonia,0,checking..
+1327,AbhiJit,ikonia,0,2.6.32.29 is installed but its not being show in grub menu and 2.6.32.28 is installed which is being shows in menu and 2.6.32.27 is not installed (i removed) but its still being shown in menu Dr_Willis
+1328,ikonia,AbhiJit,0,show me the output of 'uname -a' please.
+1329,AbhiJit,ikonia,0,Linux abhi-laptop 2.6.32-28-generic #55-Ubuntu SMP Mon Jan 10 23:42:43 UTC 2011 x86_64 GNU/Linux
+1330,ikonia,AbhiJit,0,can you pastebin the output of 'dpkg -l | grep -i linux-image' please
+1331,AbhiJit,ikonia,0,http://pastebin.com/UrHDDUDs
+1332,ikonia,AbhiJit,0,and you're still seeing .27 in your grub menu  ?
+1333,AbhiJit,ikonia,0,yes
+1334,ikonia,AbhiJit,0,Hmmmm have you run update-grub ?
+1335,AbhiJit,ikonia,0,yes 3 times
+1336,AbhiJit,ikonia,0,while installing the latest updates it installed the latest kernel it asked me that i dont have menu.lst do i want to generate then i said yes
+1337,ikonia,AbhiJit,0,why did you say yes to that ?
+1338,AbhiJit,ikonia,0,i thought that menu.lst is imp file i should have it?
+1339,ikonia,AbhiJit,0,"no, you're using grub2  aren't you ?"
+1340,AbhiJit,ikonia,0,yes grub2
+1341,ikonia,AbhiJit,0,"ok, so that doesn't use menu.lst"
+1342,ikonia,AbhiJit,0,do you have /boot/grub/menu.lst ?
+1343,AbhiJit,ikonia,0,yes
+1344,ikonia,AbhiJit,0,"ok, so if you look in there, does that match the menu you see on your grub boot screne ?"
+1345,AbhiJit,ikonia,0,nope.
+1346,AbhiJit,ikonia,0,because in menu.lst it is showing right kernels that is .29 first and then .28. but in real i see .28 and then .27 in grub menu screen
+1347,AbhiJit,ikonia,0,llutz how to clear this mess?
+1348,AbhiJit,ikonia,0,i just wanted to coonfirm that this mess occured due to my saying yes to that create menu.lst?
+1349,AbhiJit,ikonia,0,no you are not missing anything.
+1350,AbhiJit,ikonia,0,i told you everything.
+1351,AbhiJit,ikonia,0,this time i take care to use only synaptic to do this.
+1352,ikonia,AbhiJit,0,"not sure what's causing that behviour, never seen it before, never seen grub2 offer to generate a menu.lst either"
+1353,AbhiJit,ikonia,0,ok. then should i try reinstalling grrub and then new kernel?
+1354,AbhiJit,ikonia,0,or instead ask on forums?
+1355,ikonia,AbhiJit,0,"I don't think so, I wouldn't re-install unless I had reason to believe grub2 was broke, but it's your call"
+1356,AbhiJit,ikonia,0,llutz_ llutz ok btw thanks your for time.i first ask on forum now
+1357,ikonia,AbhiJit,0,very odd behaviour from grub
+1358,AbhiJit,ikonia,0,yeah
+1359,AbhiJit,ikonia,0,llutz_ mkanyicy i just chekced synaptic for insatlling grub and i found that grub2 is not installed at all.
+1360,AbhiJit,ikonia,0,there is only old grub installed.
+1361,AbhiJit,ikonia,0,i think grub2 got remjoved while i was removing old kerrnel
+1362,ikonia,AbhiJit,0,"intersting, then menu.lst should be used, but you say that is different to what you see on screen"
+1363,AbhiJit,ikonia,0,llutz_ yeah now i am removing old grub and now installing grub2
+1364,ikonia,AbhiJit,0,do tell
+1365,AbhiJit,ikonia,0,llutz_ now i have the latest kernel .29 and .28 and i wanted to remove the .28. so please tell me whats the safest thing to remove from syaptic?
+1366,AbhiJit,ikonia,0,"there are two things generic,image i think"
+1367,AbhiJit,ikonia,0,i told installing grub2 and removing old gurb solved my problem.
+1368,AbhiJit,ikonia,0,now i wanted to know the safe way to remove old kernel.
+1369,AbhiJit,ikonia,0,which thing to remove ?
+1370,AbhiJit,ikonia,0,generic or image?
+1371,ikonia,AbhiJit,0,synaptic is a safe way
+1372,AbhiJit,ikonia,0,yeah i removed it.
+1373,AbhiJit,ikonia,1,thanks for you all

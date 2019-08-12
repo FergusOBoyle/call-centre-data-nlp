@@ -1,0 +1,604 @@
+Column1,from,to,class,text
+0,fk91,,0,"Hello, I have a minimal linux system: how can look at the ip settings?"
+1,fk91,,0,ifdown and ifconfig are not available
+2,fk91,,0,"@Maco: ip is there, thanks :)"
+3,sometux,fk91,0,ifconfig
+4,sometux,fk91,0,static or dhcp
+5,fk91,,0,static
+6,sometux,fk91,0,look at /etc/interface
+7,fk91,sometux,0,"/etc/interfaces are not there, its a fli4l"
+8,sometux,fk91,0,sorry look at /etc/network/interfaces
+9,fk91,sometux,0,This file isnt there too.
+10,sometux,fk91,0,i think you have to look in /proc
+11,mrapple,,0,ok i just did sudo swapoff -a then sudo swapon -a and im getting 'swapon: /mnt/2048Mb.swap: stat failed: No such file or directory'
+12,mrapple,,0,uh oh?
+13,mrapple,,0,FilenameTypeSize Used Priority
+14,mrapple,,0,/dev/sda5                               partition 6001656 0 -1
+15,ikonia,mrapple,0,"not really, do a 'sudo swapon -s' what does it show"
+16,mrapple,,0,"ok ikonia theres a 2048.swap in /mnt, but no 2048mb.swap"
+17,ikonia,mrapple,0,"ok, that means you have a swap line in your /etc/fstab that points at /mnt/2048mb.swap, remove it"
+18,ikonia,mrapple,0,look in the files /etc/fstab and remove that line
+19,mrapple,ikonia,0,i changed it to 2048.swap
+20,ikonia,mrapple,0,or ignore my advice.....and do what you want
+21,tumenjargal,,1,hi guys
+22,tumenjargal,,0,I've firefox problem.
+23,tumenjargal,,0,help me
+24,tumenjargal,,0,I'm using firefox 3.5.9 on ubuntu os.
+25,tumenjargal,,0,always crush firefox
+26,tumenjargal,,0,help help
+27,tumenjargal,,0,I've disable all addon
+28,tumenjargal,,0,then have crush problem
+29,tumenjargal,,0,still now
+30,nukelacity,tumenjargal,0,what do are you doing normally when it crashes?
+31,nukelacity,tumenjargal,0,uses firebug and web developer or some addon like that
+32,redvil,,0,hello there..anyone knows an iTunes equivalent app in Ubuntu?
+33,ectospasm,redvil,0,I don't know of one that will interface with iTunes
+34,ectospasm,redvil,0,there probably won't be one until Apple releases iTunes for Linux (heh.
+35,ectospasm,redvil,1,heh.
+36,ectospasm,redvil,1,heh.)
+37,redvil,ectospasm,0,i already use rhythmbox for the mp3s but i need one that supports file transfer
+38,ectospasm,redvil,0,from what to what?
+39,redvil,ectospasm,0,thanks anyways..it's just that i've been 'googling' like crazy and couldn't find one
+40,ectospasm,redvil,0,"'support file transfer' is too vague, transferring from what device to what device?"
+41,redvil,ectospasm,0,i can transfer mp3 files from Ubunt to iPhone..but not other files..like pdf and lit files
+42,ectospasm,redvil,0,gtkpod might be able to do that
+43,redvil,ectospasm,0,"ok then, i'll give that one a try..thanks"
+44,barberan,,1,hi THeRE
+45,barberan,,0,Who is synergy user ?
+46,barberan,,0,I've some questions
+47,barberan,,0,привет блядь
+48,airtonix,barberan,0,english please.
+49,airtonix,barberan,0,what is the issue
+50,airtonix,barberan,0,perhaps a picture then ?
+51,airtonix,barberan,0,known bug
+52,barberan,airtonix,0,"so, there is nothing to do with that?"
+53,barberan,airtonix,0,;)
+54,airtonix,barberan,0,"unfortunatly no, not until they fix it"
+55,barberan,airtonix,1,thank you man
+56,dekroning,,1,hi
+57,dekroning,,0,where can i enabled autologin ?
+58,dekroning,,0,i changed my password and it doesn't do 'autologin' anymore
+59,mcl0vin_,dekroning,0,auto login to NASA or where?
+60,dekroning,mcl0vin_,0,"sorry, autologin on my desktop (Xorg)"
+61,dekroning,mcl0vin_,0,i'm using XFCE window manager
+62,dekroning,mcl0vin_,0,gdm
+63,dekroning,mcl0vin_,0,so i'm guessing it's autologin for GDM
+64,dekroning,mcl0vin_,0,or if you do know more about auto login to NASA that's fine to
+65,dekroning,mcl0vin_,0,video/audio stream via NASA or where ?
+66,nimbiotics,,0,what do i have to install in order to be able to be able to share files with windows///
+67,Ken8521,nimbiotics,0,samba is pretty easy..
+68,nimbiotics,Ken8521,0,im a noob; just install the samba synaptyc packg??
+69,nimbiotics,Ken8521,0,?
+70,Ken8521,,0,ok
+71,Ken8521,nimbiotics,0,"hold on, i'll get you a link that will help a lot"
+72,nimbiotics,Ken8521,1,thx
+73,Ken8521,nimbiotics,0,"are the linux and windows OS's that need access to the shared folders, online at the same time?"
+74,nimbiotics,Ken8521,0,yes
+75,Ken8521,nimbiotics,0,i used the first post in this thread... very simple w/ ubuntu 9.10   http://ubuntuforums.org/showthread.php?t=202605
+76,nimbiotics,Ken8521,1,thank you very much!!
+77,nimbiotics,Ken8521,0,!
+78,Yoshario,,0,I can't open a program
+79,Yoshario,,0,Something's wrong
+80,jack__,Yoshario,0,are you using windows?
+81,jack__,Yoshario,0,try in command line
+82,Yoshario,jack__,0,how would I do that?
+83,jack__,Yoshario,0,open terminal and tehn type the full path to the file
+84,jack__,Yoshario,0,there is your problem
+85,jack__,Yoshario,0,the .muh is probably a folder
+86,Yoshario,jack__,0,I created it.
+87,Yoshario,jack__,0,"I still get an error, though."
+88,jack__,Yoshario,0,you should try the muh channel :P
+89,Tendency,,0,Umm..
+90,Tendency,,0,Cornwall!
+91,Tendency,,0,WOOOO.
+92,Tendency,,0,:) (I live in Cornwall).
+93,Cornwall,Tendency,0,That's my last name :)
+94,Tendency,Cornwall,0,So you don't live in Cornwall :O?
+95,Cornwall,Tendency,0,Nope.
+96,Cornwall,Tendency,0,Everything about my name points to that kind of nationality.... but I'm of Irish lineage!
+97,Tendency,Cornwall,0,Lol :)
+98,Cornwall,Tendency,0,I thought it ran fine with Wine.... or are you needing native drivers?
+99,Cornwall,Tendency,0,:)
+100,Cornwall,Tendency,0,Glad your day has been made :)
+101,Tendency,Cornwall,0,XD
+102,Cornwall,Tendency,0,http://appdb.winehq.org/objectManager.php?sClass=application&iId=17
+103,belus,,0,Where can I change the login screen layout from?
+104,andra,,0,this should provide you with the information  you are seeking
+105,andra,belus,0, http://ubuntuforums.org/showthread.php?t=11478
+106,belus,andra,1, Thank you very much
+107,andra,belus,1, you are most welcome my friend
+108,andra,belus,0, did you accomplish what you were wanting?
+109,belus,andra,0, Yes:)
+110,andra,,0,"guys I am currently operating ubuntu on a Gateway M-275 tablet pc with one gig of ram and an integrated 64 MB GPU,   other than some sound issues  I have to admit this little tablet pc really hums away in  linux"
+111,andra,belus,0, glad to hear it
+112,belus,andra,0," Thanks andra, hmm I got to learn a lot...:D"
+113,belus,,0,I checked ubuntu software center and orca is installed but were can I find it?
+114,belus,,0,Were is orca ?
+115,belus,,0,I can't seem to find that program.
+116,TigerDuck,belus,0,which orca
+117,belus,TigerDuck,0, Orca software.
+118,TigerDuck,belus,0,bash: which orca
+119,belus,TigerDuck,0, orca reader
+120,belus,TigerDuck,0, http://live.gnome.org/Orca
+121,TigerDuck,belus,0,Type INTO your BASH: which orca
+122,belus,TigerDuck,0," i started it, thanks:)"
+123,gmatt,,0,"im bout to just find a different distro...no help in here whatsoever...and 10.04 is so broken, it shouldn't have been released yet"
+124,haavaros,gmatt,0,"Yeah, lucid feels like alpha-quality."
+125,haavaros,gmatt,0,"Reinstall jaunty or karmic, or try e.g."
+126,haavaros,gmatt,0,Mint 8
+127,gmatt,haavaros,0,have you tried opensuse
+128,haavaros,gmatt,0,Nope
+129,gmatt,haavaros,0,"checking it out, but dont wanna wait for 4.2gb to download..."
+130,haavaros,gmatt,0,"I'm gonna install Mint on my laptop, since my current installation seems broken"
+131,haavaros,gmatt,0,Just 600 MB or so for the CD iso
+132,gmatt,haavaros,0,"i looked at mint, but want xfce 64-bit, and they don't offer it"
+133,haavaros,gmatt,0,"Ah, ok"
+134,haavaros,gmatt,0,"How about xubuntu 9.10, does that come in 64bit?"
+135,jenue,,1,hi guys.
+136,jenue,,0,I just want to know your side of what's the coolest all-in-one messenger client for ubuntu?
+137,jsec_laptop,jenue,0,Pidgin
+138,jenue,jsec_laptop,0,zaxonspox  you can't set to invisible mode for pidgin
+139,jsec_laptop,jenue,0,i just did...
+140,jenue,jsec_laptop,0,zaxonspox  for specific account
+141,jenue,jsec_laptop,0,zaxonspox  for specific account?
+142,jenue,jsec_laptop,0,?
+143,jenue,jsec_laptop,0,correct.
+144,jenue,jsec_laptop,0,that's what I mean.
+145,jenue,jsec_laptop,1,thanks
+146,jsec_laptop,jenue,0,"i'm looking, and it seems that you're right on that matter."
+147,jsec_laptop,jenue,0,"i don't understand WHY they wouldn't have that functionality, but it seems they don't"
+148,jenue,jsec_laptop,0,yah.
+149,jenue,jsec_laptop,0,"if meeboo can be desktop app, it is the best messenger client for me"
+150,jsec_laptop,jenue,0,"i'm waiting for the *nix port for Digsby, it's what I use on my M$ box"
+151,dr_willis,,0,what if 2 files have identical timestamps apctr ?
+152,dr_willis,,0,use a differnt icon theme perhaps?
+153,apctr,dr_willis,0,how can two files have some timestamps?
+154,apctr,dr_willis,0,I'm assuming that no files are having identical timestamp.
+155,dr_willis,,0,depending on how they are sorted.
+156,dr_willis,,0,apt-cache search theme | grep icon
+157,dr_willis,,0,shows lots of icon themes.
+158,dr_willis,,0,:)
+159,dr_willis,apctr,0," could write a little script that lists them, and uses head or tail to cut off the first line."
+160,dr_willis,apctr,0,:)
+161,dr_willis,,0,Not sure what app you use in 11.10 to set the icon theme these days..
+162,apctr,dr_willis,0,I want one command with help of pipe or awk?
+163,apctr,dr_willis,0,?because i have to give that output to zip to compress those files
+164,Yadira,,1,hi guys
+165,Yadira,,0,i hook up another monitor in mi laptop
+166,Yadira,,0,to watch movies on big screen
+167,Yadira,,0,does the cable transfer audio too
+168,tucemiux_,Yadira,0,and what is the problem?
+169,tucemiux_,Yadira,0,all in ***one line***
+170,tucemiux_,Yadira,0,does your monitor have speakers?
+171,tucemiux_,Yadira,0,you have to connect a wire that goes from the 'headphone' jack in your laptop to the speakers in your monitor
+172,tucemiux_,Yadira,0,"to get full screen is always flaky, since the laptop is opened you might need to hit a combination of keys on your laptop so that the screen goes to the monitor, on my laptop is 'FN +F8', look at your keyboard and you should see a key labeled 'Fn' and should be maybe colored blue, you should see another key labeled something like 'CRT/LCD'"
+173,tucemiux_,Yadira,0,you must have to reboot your laptop with the monitor hooked up to the laptop
+174,tucemiux_,Yadira,0,sorry i meant to say you ***might***
+175,tucemiux_,,0,how can you tell what format a HD has by using the command line only?
+176,edbian,tucemiux_,0,sudo fdisk -l
+177,tucemiux_,edbian,0,doesnt tell me if its ext3 or ext4
+178,edbian,tucemiux_,0,Lists all the partitions on the hdd's connected to the computer and their fs type.
+179,edbian,tucemiux_,0,"Oh, I'm sure it does I just don't know the options you need to give to it."
+180,edbian,tucemiux_,0,That command just says 'linux' I believe.
+181,edbian,tucemiux_,0,Is that right?
+182,tucemiux_,edbian,0,i do not see ext3 or ext4?
+183,tucemiux_,edbian,0,O_o
+184,edbian,tucemiux_,0,I don't know how to see it very cli
+185,edbian,tucemiux_,0,Sorry
+186,edbian,tucemiux_,0,Sure did!
+187,edbian,tucemiux_,0,:)
+188,tucemiux_,,0,yup yup
+189,tucemiux_,,0,most ISP block port 80
+190,tucemiux_,,0,yup yup
+191,tucemiux_,,0,and port 22
+192,drleper2000,tucemiux_,0,you mean isp will block port 80 on a client machine so it cant act as a webserver on that port?
+193,tucemiux_,drleper2000,0,correct!
+194,tucemiux_,drleper2000,0,welcome to the real world
+195,drleper2000,tucemiux_,0,haha lose the attitude bro
+196,drleper2000,tucemiux_,0,just clarifying what you meant
+197,tucemiux_,drleper2000,0,"i feel the same way though sorry it had to be me to break you the good news but there is a workaround, just dont use port 80 or port 22, you can do that in your router"
+198,drleper2000,tucemiux_,0,huh?
+199,drleper2000,tucemiux_,0,"im just trying to fix a graphics problem mate, i understand ports/servers."
+200,drleper2000,tucemiux_,0,peace out.
+201,tucemiux_,,0,anyone upgraded yet to 11.10?
+202,tucemiux_,,0,Any particular feature that 11.10 has that I am missing or that you like in particular?
+203,tucemiux_,,0,aaahhh...
+204,tucemiux_,,0,so no wayland?
+205,dr_willis,tucemiux_,0, wayland is a long way off
+206,dr_willis,tucemiux_,0, theres several out.
+207,dr_willis,tucemiux_,0,yes..
+208,tucemiux_,dr_willis,0,"but I mean, have you personally tried some that work"
+209,dr_willis,tucemiux_,0, clamav works.
+210,dr_willis,tucemiux_,0,i imagine the others do also...
+211,tucemiux_,dr_willis,0,"but I dont want to use it on wingdows though, I want to use it on ubuntu"
+212,dr_willis,tucemiux_,0,  theres not really any viruses in the wild for linux that i know of.. and  the job of these av tools.. is mainly to scan files for windows viruses..
+213,tucemiux_,dr_willis,0,thanks for the link!
+214,Disk1of5,,0,"i think i found a bug in ubuntu i installed 10.4 on my netbook and it works but after i close the lid and it enters sleep mode, once its re-awaken i cannot brows samba servers in nautilus.. using smb://<IP> just times out"
+215,penguin42,Disk1of5,0,But the rest of the networking works OK?
+216,Disk1of5,penguin42,0,that is correct
+217,penguin42,Disk1of5,0,Curious!
+218,penguin42,Disk1of5,0,Does it give you errors
+219,Disk1of5,penguin42,0,"im just trying to do it again, its working from a fresh boot.. but im mounting and suspending.. then checking to see how Nautilus handles it.. i belive if it times out long enough i get a dbus msg"
+220,Disk1of5,penguin42,0," ok i have replicated the error, if im using LAN and not wifi after suspend  im not able to browse my samaba shares until i reboot the error msg was dbus did not receive a reply.."
+221,penguin42,Disk1of5,0,but it works on lan after a 1st boot?
+222,penguin42,Disk1of5,0,"OK, I'm not a samba expert but I'd check /var/log/samba for any of the logs in there for any smoking gun, but I'd submit a bug"
+223,Disk1of5,penguin42,0,yes at first boot it works
+224,Disk1of5,penguin42,0,no logs are generated in /var/log/samba
+225,penguin42,Disk1of5,0,One for a bug report then
+226,Dr_Willis,,0,the .dmrc file has the default linuxrunner .
+227,Dr_Willis,,0,but i dont know what to chang it to select Lubuntu.
+228,Dr_Willis,,0, #lubuntu may know
+229,Dr_Willis,,0,ive never noticed GDM auto-logging in when i just select a user.. ive always had to enter a password.
+230,Dr_Willis,,0,it would Login the first time automatically.
+231,Dr_Willis,,0,but after i logged out.
+232,Dr_Willis,,0,it would wask
+233,Dr_Willis,,0,I think theres other autologin settings that may change teh bahaivor.
+234,Dr_Willis,,0,acually the Login Tool here in System -> admin.
+235,Dr_Willis,,0,has a pull down for what 'default window manager' to use.
+236,Dr_Willis,,0,it seems
+237,saji89,Dr_Willis,0,Actually linuxrunner hasn't told us what exactly he wants to change in his login behaviour.
+238,saji89,Dr_Willis,0,coz_ Can't something have gone wrong during a distribution upgrade to the LTS?
+239,Dr_Willis,saji89,0, it ould i guess.. some keys didetn get signed.. but i guess one could try to install other packages an dsee if they report the same issue.
+240,saji89,Dr_Willis,0,Ya that's a way..
+241,saji89,Dr_Willis,0,Me too.
+242,saji89,Dr_Willis,0,I also do fresh install nowadays.
+243,saji89,Dr_Willis,0,Especially with my love for PPA's.. :)
+244,buffr,,0,"hey, could anyone help with changing my ubuntu server locale to UTF-8?"
+245,buffr,,0,right now it shows POSIX for some reason?
+246,buffr,,0,:P
+247,hunahpu,buffr,0,POSIX = Portable Operating System Interface X (x to make it sound like unix)
+248,buffr,hunahpu,0,erm so?
+249,buffr,hunahpu,0,how do I set my server to use UTF-8 encoding?
+250,buffr,hunahpu,0,:P
+251,hunahpu,buffr,0,"encoding affects individual files, not a whole server"
+252,buffr,hunahpu,0,but seems that my server is using something else than UTF-8 as default encoding?
+253,buffr,hunahpu,0,:P
+254,hunahpu,buffr,0,"configure your text editor to save your coded pages in utf-8, if you have joomla or similar try in their options"
+255,hunahpu,buffr,0,"if you have total control of the server, you may want to check your fstab file"
+256,buffr,hunahpu,0,"I do have, I'll do that."
+257,buffr,hunahpu,0,What should be there?
+258,hunahpu,buffr,0,specify that you want to use UTF-8 in your mounting options
+259,hunahpu,buffr,0,"read http://linux.die.net/man/8/mount add the utf option to your mount options in your fstab file, but I just re-read your original question, it might not be this but you lose nothing in trying"
+260,cutie_girl,,1,hello
+261,cutie_girl,,0,can somebody help with a problem?
+262,cutie_girl,,0,:S
+263,cutie_girl,,0,LOOOOOL very funny xD
+264,cutie_girl,,0,"well, I have ubuntu and the sound is not working on the internet"
+265,cutie_girl,,0,in youtube for exempla
+266,cutie_girl,,0,*example
+267,cutie_girl,,0,does any one knows what can I do to solve that?
+268,cutie_girl,,0,how do I do that Blueskaj?
+269,wegandu,cutie_girl,0,first girl i saw using linux
+270,wegandu,,0,what is the ubuntu offtopic channel name?
+271,IdleOne,,0,#ubuntu-offtopic
+272,IdleOne,wegandu,0,it is a terminal client
+273,wegandu,IdleOne,0,how do 0i use gtypist?
+274,IdleOne,wegandu,0,open a terminal and type gtypist
+275,wegandu,IdleOne,0,thanks.. can it measure words per minute?
+276,IdleOne,wegandu,0,I believe it does
+277,wegandu,IdleOne,0,what is the off topic channel name?
+278,IdleOne,wegandu,0,#ubuntu-offtopic
+279,wegandu,IdleOne,1,thank you
+280,vivek_,,0, i have intel p 4 2.8 Ghz LG 17'' monitor so will  it support resolustion if i intsall 10.10
+281,vivek_,,0,disply
+282,Gartral,,0,"yes, WHAT display resolutions"
+283,Gartral,vivek_,0,what resolutions?
+284,vivek_,,0,MikeChele: disply settings
+285,Gartral,vivek_,0,you aren't making any sense.
+286,Gartral,vivek_,0,what is your target display resolution?
+287,vivek_,Gartral,0,: i am not able to install 10.10 ubuntu to plz guide me
+288,Gartral,vivek_,0,erm.. what exactly is stopping you?
+289,vivek_,Gartral,0,when i start to install 10.10 it always say preparing to install and it will never move forward
+290,Gartral,vivek_,0,how long have you waited?
+291,Gartral,vivek_,0,I've seen the installer take 30 minutes to start up on an i7 with 8 gigs ram..
+292,joe__,,0,compression wise?
+293,joe__,,0,I always seem to get better compression rates out of ZIP
+294,joe__,,0,does 7-zip password protect?
+295,joe__,,0,I'm gonna run some tests right now and compare compression and reliabilty.
+296,joe__,,0,I really thought I had thried 7 and found it lacking... hopefully it's not
+297,joe__,,0,why would you compress files in windows?
+298,joe__,,0,you email from a windows machine?
+299,joe__,,0,like at work or something?
+300,Chance_,,0,webclients for instance
+301,Chance_,joe__,0, I am stating reasons why 'people' using windows would.
+302,Chance_,,0,nice one Curly_Q :)
+303,joe__,Chance_,0,; )
+304,Chance_,joe__,0,besides I am a Network admin in a Windows environment ;-)
+305,hiexpo,,0,yep thought so
+306,hiexpo,,0,they burned but had bad spots
+307,hiexpo,,0,i think i got bad dvds
+308,hiexpo,,0,dvd
+309,hiexpo,,0,ok
+310,hiexpo,,0,now changing from an avi to dvd file iso will that do it ?
+311,hiexpo,,0,no i mean when i downloaded it it was an avi file than i used dvd to createdvd iso than burned it
+312,hiexpo,,0,i didnt say wmv file
+313,hiexpo,,0,oh so when i download i need to download an iso
+314,larka06,hiexpo,0,I use gstreamer and add gstreamer-ugly plugins
+315,[THC]AcidRain,,0,"see, that red light goes crazy when i try to move files around on that drive"
+316,[THC]AcidRain,,0,im scared
+317,[THC]AcidRain,,0,lol
+318,Traintop,[THC]AcidRain,0,perhaps this red light indicates harddrive-activity... ;->
+319,[THC]AcidRain,Traintop,0,"if that was true, why wouldnt it do it on my other ddrive?"
+320,Traintop,[THC]AcidRain,0,just guessing... :-)
+321,Traintop,[THC]AcidRain,0,if your drive changes names try mounting it via its uuid
+322,[THC]AcidRain,Traintop,0,how do i do that?
+323,[THC]AcidRain,Traintop,0,the drive was named sdg1 for 2 months
+324,[THC]AcidRain,Traintop,0,on the command you gave me.
+325,[THC]AcidRain,Traintop,0,no output...
+326,Traintop,,1,Hi Folks!
+327,Traintop,,0,Is there an easy way to make my laptop work as a radioclock/alarm while in hotels?
+328,Traintop,,0,"ActionParsnip,bazhang: to be more specific; I want to enter a time when I go to bed; turn the laptop off and it then wakes up at the specified time and starts playing a playlist/web-channel/mp3/divx/..."
+329,Traintop,,0,I'm using 11.04 and hoped such things would go via GUI
+330,mneptok,Traintop,0,"if the laptop is fully off, how is the software that supposed to wake it up supposed to get any CPU time to do its job?"
+331,Traintop,mneptok,0,the laptop is connected to AC all night to load the battery; so energy is not the problem; but adjusting the acpi-timer and then start some script/prog to 'wake me up' :-)
+332,mneptok,Traintop,0,"you want to tell the BIOS to boot, then create a cronjob to fire up your music."
+333,Traintop,mneptok,0,and this still has to be done manually these days?
+334,mneptok,Traintop,0,"no, just like MacOS, you only need to visulaize in your mind what you want, and never have to touch the keyboard."
+335,mneptok,Traintop,0,('manually?'
+336,mneptok,Traintop,0,is there any other way?)
+337,mneptok,Traintop,0,plug the phone into the speakers
+338,Traintop,mneptok,0,manually != done by package :-)
+339,laughter,,0,"hey, I'm currently running bleachbit, it is removing abou 1.5 GB and it has been saying that it is cleaning the system for about 20 minutes?"
+340,laughter,,0,is this typical?
+341,Dr_Willis,laughter,0," ive noticed it taking a VERY long time also.. i think it may be hanging, OR you selected the clean free area option"
+342,laughter,Dr_Willis,0,"i did select the free space option, the idea of freeing a gig of space sounded amazing."
+343,laughter,Dr_Willis,0,"it warned it would slow things, but it's been chillin for a while"
+344,Dr_Willis,laughter,0, its actually overwriting the free space to 'securely delete' things from how i read the tooltops
+345,Dr_Willis,laughter,0, i think that option should proberly be disabled by default.
+346,Dr_Willis,laughter,0,:) its a little over paranoid
+347,laughter,Dr_Willis,0,"yeah, that's what i was thinking, i have no secrets, so i will never run it again."
+348,laughter,Dr_Willis,0,i'll just give it some more time.
+349,laughter,Dr_Willis,1,thanks!
+350,Dr_Willis,laughter,0, it would be nice if bleachbit also let you know the last time a 'fix' has been ran.
+351,Dr_Willis,laughter,0,I dont see the point in doing some of those cleaning tasks more then once a week :)
+352,Dr_Willis,laughter,0, i got a 1TB HD.. so it was going to take it some time.
+353,Dr_Willis,laughter,0,:)
+354,laughter,Dr_Willis,0,"true, i'm fairly religious about deleting old packages and the like, bleachbit will be added to the weekly cleaning!"
+355,laughter,Dr_Willis,0,"a window popped up to prompt me that I have 0 bytes remaining and i should empty my trash, i hope that means bleachbit progress, or is this a bug?"
+356,laughter,,0,what 's wrong with my top panel?
+357,laughter,,0,there are white lines and dots.
+358,laughter,,0,any help is appreciated?
+359,laughter,,0,http://imgur.com/9qD0u
+360,laughter,,0,nothing
+361,laughter,,0,"nothing, i cant move cardapio(my menu applet)"
+362,laughter,,0,i usually can
+363,laughter,,0,"umm, well i switched from elementary to ambiance and that is when the dots and lines appeared"
+364,whompapotamus,laughter,0, create another panel by right-clicking on the top panel and see if lines appear - if not - kill the top panel and re-add all of your applets to the new one
+365,laughter,whompapotamus,0,no lines on the new panel
+366,laughter,whompapotamus,1,thanks
+367,whompapotamus,laughter,0,create all of you applets on the new one and delete the old one
+368,laughter,whompapotamus,0,will do good sir
+369,iSUKatLINUX,,0,no dice
+370,xangua,iSUKatLINUX,0,what's your problem¿¿
+371,iSUKatLINUX,xangua,0,"  Okay, I got a puzzle: I installed ubuntu 904 but it gave me no sound."
+372,iSUKatLINUX,xangua,0,"Then I RAN, not install ubuntu 8, and i can play mp3s just fine, but now it says 'The playback of this movie requires a XVID MPEG-4 decoder plugin which is not installed', when i try to play AVI"
+373,xangua,iSUKatLINUX,0,why don't you use karmic koala¿¿
+374,xangua,iSUKatLINUX,0,have you installed restricted extras¿¿
+375,iSUKatLINUX,xangua,0,"  I  just would like help to play avis in ubuntu 8. but it says 'The playback of this movie requires a XVID MPEG-4 decoder plugin which is not installed', when i try to play AVI"
+376,xangua,iSUKatLINUX,0,"ubuntu 8, ubuntu 9¿¿ do you even know what are you using¿¿"
+377,iSUKatLINUX,xangua,0,"if you just wanna take the piss, shut up"
+378,xangua,iSUKatLINUX,0,i have already asked you if you have restricted extras installed; but with that attitude you can get help from here
+379,iSUKatLINUX,xangua,0,"if you don't wanna help, don't help"
+380,cyy,,0,ok followup question: why are 'root' and 'www-user' running apache and how do i stop that from happening
+381,chakal^-^,cyy,0,fuser -v 80/tcp
+382,chakal^-^,cyy,0,with sudo before forgiveness
+383,cyy,histo,0,"i have no idea why its running, none of the users want it, and I want to use port 80 for something else"
+384,chakal^-^,,0,"the parent process is always root, the thread's inherited from the UID / GID of the user / group defined in apache, or www-data: www-data"
+385,chakal^-^,,0,That is completely normal cyy
+386,cyy,,0,no I don't need apache installed
+387,cyy,,0,yeah
+388,cyy,,0,is it running by default with ubuntu or did someone manage to install it accidentally?
+389,chakal^-^,cyy,0,are reading me?
+390,BPower,,0,Anyone know of file splitting/joining software that works on both Ubuntu and Windows
+391,BPower,,0,?
+392,MikeChelen,BPower,0,7zip with .rar or .tar?
+393,BPower,MikeChelen,0,Oh.
+394,BPower,MikeChelen,0,Didn't know you could do that with 7zip.
+395,BPower,MikeChelen,0,I'll try that out.
+396,BPower,MikeChelen,1,Thanks
+397,MikeChelen,BPower,0,"check which file formats it supports, probably ones allows splitting"
+398,BPower,MikeChelen,1,thanks!
+399,BPower,MikeChelen,0,:) I'm going to try now on the Windows side.
+400,BPower,MikeChelen,0,brb
+401,BPower,MikeChelen,0,you're the best :) Thanks for pointing out 7zip for me
+402,MikeChelen,BPower,0,"there are tons of good archive programs for linux, 7zip is nice though for being crossplatform :)"
+403,BPower,MikeChelen,0,agreed
+404,BPower,MikeChelen,0,Okay so I just split the file and was finally able to successfully transfer everything over to my other computer (running Ubuntu).
+405,BPower,MikeChelen,0,Now I need to join them again...
+406,BPower,MikeChelen,0,I can't find any documentation on how to do this via 7zip's command line....
+407,TrentH,,0,idlecool; what is it doing?
+408,TrentH,,0,BPower
+409,TrentH,,0,xrandr -configure
+410,TrentH,,0,--configure
+411,TrentH,,0,or -config or --config
+412,TrentH,,0,"one fo those, ^-^"
+413,TrentH,,0,"Ask your ISP, what your DNS settings are suppose to be."
+414,BPower,TrentH,0,neither worked....
+415,BPower,TrentH,0,I added a resolution to my monitor (it wasn't giving me high enough resolutions) and positioned it.
+416,TrentH,BPower,0,Take a look @ this link.
+417,TrentH,BPower,0,http://www.thinkwiki.org/wiki/Xorg_RandR_1.2
+418,bastid_raZor,,0,!hostname | BPower
+419,BPower,bastid_raZor,0,"ActionParsnip: thanks, but how do I just find out what it is?"
+420,bastid_raZor,BPower,0,/etc/hostname  .. as the factoid states
+421,bastid_raZor,BPower,0,or type hostname in a terminal and press enter
+422,bastid_raZor,BPower,0,in synaptic search linux-image and uninstall all the kernels you don't want
+423,bastid_raZor,BPower,0,sudo service gdm stop   ..if you're using gnome
+424,BPower,bastid_raZor,0,thanks i'll try that and be back soon
+425,BPower,bastid_raZor,0,what was it again?
+426,BPower,bastid_raZor,0,My clipboard didn't copy it for some reason
+427,bastid_raZor,BPower,0,sudo service gdm stop
+428,BPower,bastid_raZor,0,"thanks, got it this time."
+429,BPower,bastid_raZor,0,be back soon
+430,abuayyoub,,0,would you like me to send you what I could get iceroot?
+431,abuayyoub,,0,Jul  1 00:25:26 ubun2 anacron[1498]: Normal exit (1 job run)
+432,abuayyoub,,0,let me send you the error
+433,abuayyoub,,0,"ata1.00: status: {DRDY ERROR} error: {UNC} exceptior emas 0x0 SAct end request I/O error... iceroot, that's basically the error it just keeps repeating over and over again for maybe 10 mintes before the system will reboot"
+434,erUSUL,abuayyoub,0,https://ata.wiki.kernel.org/index.php/Libata_error_messages
+435,abuayyoub,erUSUL,0,that looks like the error yes.
+436,erUSUL,abuayyoub,0,UNC --> Uncorrectable error - often due to bad sectors on the disk
+437,abuayyoub,erUSUL,0,I see... no way to fix it?>
+438,erUSUL,abuayyoub,0,well seing more lines of the dmesg would help... maybe you can see what smart says ( system>Admin>disk utility )
+439,abuayyoub,erUSUL,0,ok let me check it out.
+440,red,,0,Anyone experiencing _terrible_ framerates with compiz enabled?
+441,red,,0,Was formerly on the alpha lucid lynx build - but now with the final release I'm like 20-30fps on compiz
+442,red,,0,which is quite odd
+443,talmai,red,0,"open hardware drivers in administration and look if there's a newer graphic driver, helped me"
+444,red,talmai,0,I'm using the same driver than I used before reinstall
+445,red,,0,and im already on the newer one
+446,red,,0,or should I try to get latest via aptitude?
+447,talmai,red,0,"yes, I did too and it was choppy."
+448,talmai,red,0,"not anymore, since I updated to the latest one"
+449,red,talmai,0,well theres the 173 and the newer one
+450,talmai,red,0,"I don't know, I had 173 and switched to the recommended one"
+451,Kills,,0,took me 15 mins
+452,Kills,,0,is there anyway i can just disable my laptop internal sound speakers
+453,Kills,,0,Soundmax?
+454,Kills,,0,maybe youre in the wriong language
+455,Kills,,0,wait Ill try
+456,Kills,,0,It wont work because the notepad doesnt have those letters i think
+457,Kills,,0,try using another program
+458,Kills,,0,linux has sound problems
+459,Kills,,0,try notepad ++ if you like notepad that bad or use other programs like ope office ones
+460,linx|,Kills,0,yes
+461,rtaycher,,0,also the mouse tends to drift a bit but I dont know if its a seperate problem
+462,rtaycher,,0,"and its not just for a bit of time, once left clicking stops working it doesn't work again"
+463,nvz,rtaycher,0,my thoughts on the subject would be both checking the device itself i.e.
+464,nvz,rtaycher,0,"catting the device and see if its producing output when you're not touching it, and also checking what kind of weird input devices are configured via your xorg.conf or xorg.log"
+465,nvz,rtaycher,0,"but as you mentioned this is a thinkpad and I know them well, it has a tracknav (two pointing devices) I know as they get old and dirty they tend to have these kinds of issues"
+466,rtaycher,nvz,0,The laptop is fairly new and clicking doesn't work on touchpad or tracknav buttons
+467,rtaycher,nvz,0,/dev/input/mouse0 is silent but /dev/input/mouse1 gives 2800 ff28 00ff in hex over and over
+468,nvz,rtaycher,0,"sounds like as I thought, something is wonky with the device itself.. either the connection is bad or its dirty..etc.."
+469,nvz,rtaycher,0,I frequently had problems with my trackpoint doing the moving to the side thing until I cleaned it real good and put a new rubber tip on it.
+470,nvz,rtaycher,0,never had the clicking issue though
+471,rtaycher,nvz,0,thanks for the help.
+472,rtaycher,nvz,0,I hope I can figure out the clicking issues
+473,nvz,rtaycher,0,I'd move on to physical troubleshooting..
+474,nvz,rtaycher,0,I'm a certified tech but its not really rocket science even if you aren't.
+475,nvz,rtaycher,0,Thinkpads have clearly marked screw holes on the bottom for which ones take off the keyboard to get in there and check the connections and for the most part those keyboards can be washed in the sink.. heh just gotta dry well before reconnecting
+476,nvz,rtaycher,0,often the ram sits right below the tracknav and that heat could've done damage as well.. depends on how old it is and how well taken care of
+477,yogesh712harish,,0,Dr_willis: are you there
+478,yogesh712harish,,0,can anybody help me for creating iso image.
+479,erUSUL,,0,sorry typo
+480,yogesh712harish,,0,hello guys can anyone help me for crating iso image in ubuntu 9.04
+481,erUSUL,yogesh712harish,0,sudo dd if=/dev/sr0 of=thedisk.iso  && sudo chowo $USER:$USER thedisk.iso
+482,erUSUL,yogesh712harish,0,sudo dd if=/dev/sr0 of=thedisk.iso  && sudo chown $USER:$USER thedisk.iso
+483,yogesh712harish,erUSUL,0,i will try it
+484,erUSUL,yogesh712harish,0,also you can use brasero or any other burning program to create an iso
+485,yogesh712harish,,1,erUsul: thank you sir...
+486,erUSUL,yogesh712harish,1,no problem
+487,milosh,,0,anyone know a good windows password recovery tool?
+488,hunahpu,milosh,0,"trinity-rescue-kit, is a distro designed specifically for your case (recovering/reseting win passwords)"
+489,hunahpu,milosh,0,right click the .iso file and then click on 'burn to CD'
+490,hunahpu,milosh,0,alternatively you can create a bootable USB flash memory (pendrive) with it.
+491,hunahpu,milosh,0,(system - admin - usb creator)
+492,hunahpu,milosh,0,"open brasero, it will display 5 big buttons, pick the last one (burn image)"
+493,hunahpu,milosh,0,brasero should work just fine; burning an iso file is not that hard; I also like gnomebaker more though (it plays a cool sound when it ends!)
+494,hunahpu,milosh,0,"I personally help people 'for fun', is better than just keeping my sit warm while I'm at work :)"
+495,milosh,hunahpu,0,well that's really cool of you man
+496,hunahpu,milosh,0,if you want to be extra-safe at 1-4x but it will take some time
+497,hunahpu,milosh,0,"use 24.0 x,"
+498,z3r0-c001,,0,i found  a solution to using internal webcam and mic online !!!!!
+499,z3r0-c001,,0,!
+500,z3r0-c001,,0,the internal web cam and mic were not working on youtube and other sites
+501,z3r0-c001,,0,i was getting stuck on the accept deny pop up
+502,z3r0-c001,,0,i know others were to
+503,z3r0-c001,,0,yeah i know that now but no one ever told me that befor i search for a month for the answer
+504,z3r0-c001,,0,lol
+505,z3r0-c001,,0,thnx for the bubble pop
+506,z3r0-c001,,0,i dont like flash cause it dont work on iphone
+507,z3r0-c001,,0,now i have to replace iphone cause itunes dont agree wit linux
+508,TyanColte,z3r0-c001,0,lmao no kidding unless adobe goes jailbreak i don't think we're ever going to have a flash solution for the iPhone
+509,jason8,,0,why wont this danm thing install
+510,jason8,,0,i cant get the installer to support my TV
+511,jason8,,0,now something happend to my USB drive and it wont boot freakin boot error
+512,jason8,,0,"bastid, what was the ISO i needed?"
+513,jason8,,0,i need help with a simple install and knowone wants to help i get no love
+514,jason8,,0,yeah
+515,Zelozelos,jason8,0,"did u have a confusion about it, a queston or what?"
+516,Zelozelos,jason8,0,"because a monitor physically connected works via hardware and some software, using a tv as a monitor is all software (unless its a monitor/tv that attaches via monitor cable)"
+517,Zelozelos,jason8,0,"4 real, ure best option is to get out a real monitor, install, then install the tv/monitor"
+518,Zelozelos,jason8,0,"maybe,"
+519,jrib,Zelozelos,1,no problem
+520,Zelozelos,,0,"i should explain this way, i want to backup only my background, panel, theme, gnome-do settings, and compiz."
+521,Zelozelos,,0,im not worried about backing up my files because i do that manually on a 2nd hd as far as progs its a simple list
+522,jrib,Zelozelos,0,what is your question?
+523,Zelozelos,jrib,0,that is my q
+524,Zelozelos,,0,"rofl, i want to backup only those settings, i ws wondering the best way"
+525,jrib,Zelozelos,0,there's no question :/
+526,Zelozelos,jrib,0,did u see the rest of my statements
+527,jrib,Zelozelos,0,no.
+528,jrib,Zelozelos,0,I just got here and read one line.
+529,jrib,Zelozelos,0,in general with a large channel like #ubuntu you shouldn't split things up on multiple lines unless you're addressing someone
+530,jrib,Zelozelos,0,copy them somewhere?
+531,jrib,Zelozelos,0,Have you seen the backup page on the wiki for more complete backup solutions?
+532,Zelozelos,,0,"if i was to use the terminal to open nautilus to a specific location say /home/user/Desktop, what would i type exactly?"
+533,undecim,Zelozelos,0,nautilus /home/user/Desktop
+534,undecim,Zelozelos,0,Purging won't erase your user settings.
+535,undecim,Zelozelos,0,That you will find in .config/gnome-do.
+536,undecim,Zelozelos,0,"If you kill gnome-do and then delete that folder, that will clear gnome-do's settings completely."
+537,Zelozelos,undecim,0,is this the reccomended course?
+538,Zelozelos,undecim,0,or should i attempt to find the error in the settings?
+539,undecim,Zelozelos,0,Deleting the directory is what I would do if I was having problems with Do.
+540,undecim,Zelozelos,0,Unless you really don't want to kill your history and settings.
+541,undecim,Zelozelos,0,"Also, I was wrong about the directory."
+542,undecim,Zelozelos,0,Here is a list of gnome-do directories I found in my home folder: http://paste.ubuntu.com/425627/
+543,undecim,Zelozelos,0,to see any files that start with '.
+544,undecim,Zelozelos,0,"', you need to press Ctrl + H in the file manager, or use the '-a' option with ls if you are in the terminal"
+545,Zelozelos,undecim,0,"thank you, i usually just goto view, view hidden files in nautilus ;)"
+546,undecim,Zelozelos,0,"Also, rename the directories or leave them in the trash instead of deleting them."
+547,undecim,Zelozelos,0,You can try one directory at a time and see if it fixes whatever issues you are having.
+548,Zelozelos,undecim,0,"good idea, thank you again"
+549,Zelozelos,undecim,0,i bet its gonna be local/share ill start there
+550,Zelozelos,,0,is there a totem alternative?
+551,ppq,Zelozelos,0,"vlc, mplayer, ..."
+552,Zelozelos,ppq,0,isnt totem the plugin for firefox to play movies- w mplayer?
+553,ppq,Zelozelos,0,"yes, there's a totem plugin for browsers."
+554,ppq,Zelozelos,0,but there are also vlc and mplayer plugins for browsers.
+555,ppq,Zelozelos,0,for mplayer: gecko-mediaplayer
+556,ppq,Zelozelos,0,the vlc plugin is mozilla-plugin-vlc
+557,ppq,Zelozelos,0,totem doesn't use mplayer
+558,Zelozelos,ppq,0,do i install it with apt-get install gecko?
+559,ppq,Zelozelos,0,it's gecko-media-player
+560,ppq,Zelozelos,0,"sorry, it's gecko-mediaplayer."
+561,ppq,Zelozelos,1,you're welcome :)
+562,xatcon,,1,hi there
+563,xatcon,,0,there is prob wit my hp printer
+564,xatcon,,0,i could not find my driver for that
+565,xatcon,,0,so help me out
+566,xatcon,,0,i m using ubuntu 9.04
+567,Zelozelos,xatcon,0,"if you may have 2 be more specific about what the issue is, if someone knows they will help"
+568,Zelozelos,xatcon,0,"did you try all the obvious trouble shooting fixes like turn off, turn on, reboot, disconnect, reconnect, check all connections etc?"
+569,Zelozelos,xatcon,0,"how does it connect anyhow, usb or serial?"
+570,Zelozelos,xatcon,0,"u shouldnt need 2 install any drivers, it should work asoon as u connect it, (as far as i know anyway)"
+571,Zelozelos,xatcon,0,"oh and if u can, connect it to a diff usb port"
+572,slakcphil,,0,<LittleZeasel> Berkeley Software Distribution
+573,slakcphil,,0,<LittleZeasel> oh yeah and you build with ports... i miss my fbsd box.......
+574,slakcphil,,0,<Zelozelos> does it not have a built in switch?
+575,Zelozelos,slakcphil,0,i dont know much about any of it i got the surfboard one because the wireless ranger was wider
+576,Zelozelos,slakcphil,0,i think theres 8 ethernet and its just between 1 desktop connected w ethernet and a lappies thats wireless
+577,Zelozelos,slakcphil,0,deskie is upgraded from 9 to 10 and lappie has vista which i dont need/use and 10.10 freash install
+578,Zelozelos,slakcphil,0,is it easy to use?
+579,Zelozelos,slakcphil,0,how do i set up ssh?
+580,Zelozelos,slakcphil,0,ahh ok i think i can fig it out from there....wasnt sure if ssh was a program or what
+581,Zelozelos,slakcphil,0,ty
+582,alex_under08,,1,hi
+583,alex_under08,,0,how can I join the php channel?
+584,alex_under08,,0,:(
+585,alex_under08,,0,!ftp
+586,alex_under08,,0,!GNOME
+587,alex_under08,,0,"does anyone know basic php, here ?"
+588,alex_under08,,0,like simple tasks as connecting to a database or so ?
+589,lilleman,alex_under08,0,yes :)
+590,alex_under08,lilleman,0,I tried to make a little script
+591,alex_under08,lilleman,0,"but, I don't know it dosen't do nothing, not even the basic printf command from the beggining"
+592,lilleman,alex_under08,0,"PM me for help, I'm getting lost in all these messages here :D"
+593,budlust,,0,"when you install a package from synaptic, where is the source code saved to?"
+594,geekphreak,budlust,0,package?
+595,geekphreak,budlust,0,.var/cache/apt?
+596,geekphreak,budlust,0,why not just apt-get it?
+597,geekphreak,budlust,0,?
+598,budlust,geekphreak,0,sry kinda new to this :D
+599,geekphreak,budlust,0,why not just apt-get the appliation ?
+600,budlust,geekphreak,0,will that get the source code?
+601,geekphreak,budlust,0,it will let you run the program by just typing john :p
+602,budlust,geekphreak,0,i need the source code to patch it
